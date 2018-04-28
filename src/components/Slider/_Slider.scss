@@ -1,0 +1,15 @@
+.slides{
+    .slick-list{
+
+        max-height: 100vh;
+
+        .slick-slide{
+            .slide_1{
+                background-image: url("/images/1.jpg");
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

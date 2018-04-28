@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import Loadable from 'react-loadable';
-import './App.css';
+import './_App.scss';
 
 
 
@@ -9,6 +9,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import Home   from '../Home/Home';
 import Prices from '../Prices/Prices';
+
 
 class App extends Component {
   render() {

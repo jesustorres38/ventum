@@ -1,8 +1,23 @@
+@import url(~slick-carousel/slick/slick.css);
+@import url(~slick-carousel/slick/slick-theme.css);
+.App {
+  text-align: center; }
+
+.Home .Slider_Container {
+  border: 5px solid blue; }
+
 .Home a {
   color: red; }
 
 .Prices a {
   color: yellow; }
+
+.slides .slick-list {
+  max-height: 100vh; }
+  .slides .slick-list .slick-slide .slide_1 {
+    background-image: url("/images/1.jpg"); }
+  .slides .slick-list .slick-slide img {
+    width: 100%; }
 
 body {
   margin: 0;
