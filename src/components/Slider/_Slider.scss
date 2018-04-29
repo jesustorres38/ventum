@@ -1,15 +1,29 @@
 .slides{
     .slick-list{
 
-        max-height: 100vh;
+        max-height: 700px;
 
         .slick-slide{
+            
             .slide_1{
-                background-image: url("/images/1.jpg");
+                background: url('/images/1.jpg') no-repeat center center;
+                background-size: cover;
+                background-color: red;
+                height: 700px;
             }
-            img{
-                width: 100%;
+            .slide_2{
+                background: url('/images/2.jpg') no-repeat center center;
+                background-size: cover;
+                background-color: red;
+                height: 700px;
             }
+            .slide_3{
+                background: url('/images/3.jpg') no-repeat center center;
+                background-size: cover;
+                background-color: red;
+                height: 700px;
+            }
+            
         }
     }
 }

@@ -3,21 +3,51 @@
 .App {
   text-align: center; }
 
-.Home .Slider_Container {
-  border: 5px solid blue; }
+.Header {
+  width: 100%;
+  position: fixed;
+  z-index: 1; }
+  .Header .Navbar_Desktop {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between; }
+    .Header .Navbar_Desktop .Navbar_Logo {
+      border: 1px solid grey;
+      height: 50px;
+      width: 200px; }
+    .Header .Navbar_Desktop .Navbar_Content {
+      border: 1px solid blue;
+      height: 50px;
+      width: 200px; }
 
-.Home a {
-  color: red; }
+.Home {
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: hidden; }
 
 .Prices a {
   color: yellow; }
 
 .slides .slick-list {
-  max-height: 100vh; }
+  max-height: 700px; }
   .slides .slick-list .slick-slide .slide_1 {
-    background-image: url("/images/1.jpg"); }
-  .slides .slick-list .slick-slide img {
-    width: 100%; }
+    background: url("/images/1.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: red;
+    height: 700px; }
+  .slides .slick-list .slick-slide .slide_2 {
+    background: url("/images/2.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: red;
+    height: 700px; }
+  .slides .slick-list .slick-slide .slide_3 {
+    background: url("/images/3.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: red;
+    height: 700px; }
 
 body {
   margin: 0;

@@ -1,0 +1,28 @@
+.Header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    
+    .Navbar_Desktop{
+        
+        max-width: 1400px;
+        margin: 0 auto;
+        background-color: white;
+        
+        padding: 15px 30px;
+        display: flex;
+        justify-content: space-between;
+
+        .Navbar_Logo{
+            border: 1px solid grey;
+            height: 50px;
+            width: 200px;
+        }
+
+        .Navbar_Content{
+            border: 1px solid blue;
+            height: 50px;
+            width: 200px;
+        }
+    }
+}

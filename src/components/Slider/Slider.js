@@ -21,13 +21,10 @@ class Slider extends Component {
         return (
           <SliderSlick {...settings}>
             <div className="slide_1">
-                {/* <img src='/images/1.jpg' alt="Ventum Barcelona Slider-1" /> */}
             </div>
-            <div>
-                {/* <img src='/images/2.jpg' alt="Ventum Barcelona Slider-2" /> */}
+            <div className="slide_2">
             </div>
-            <div>
-                {/* <img src='/images/3.jpg' alt="Ventum Barcelona Slider-3" /> */}
+            <div className="slide_3">
             </div>
           </SliderSlick>
         );
