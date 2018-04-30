@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import Loadable from 'react-loadable';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import './_App.scss';
-
-
 
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import Home   from '../Home/Home';
 import Prices from '../Prices/Prices';
+import Itinerary from '../Itineray/Itinerary';
+import Equipment from '../Equipment/Equipment';
 
 
 class App extends Component {
@@ -17,12 +16,14 @@ class App extends Component {
       <div className="App">
         <Header />
 
-        <Router>
           <Switch>
             <Route exact path="/" component={Home}/>
+            <Route path="/equipment" component={Equipment}/>
+            <Route path="/itinerary" component={Itinerary}/>
             <Route path="/prices" component={Prices}/>
+
+            <Redirect to='/' />
           </Switch>
-        </Router>
         
         <Footer />
       </div>

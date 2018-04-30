@@ -3,14 +3,24 @@
 @import './components/Footer/_Footer.scss';
 @import './components/Home/_Home.scss';
 @import './components/Prices/_Prices.scss';
+@import './components/Itinerary/_Itinerary.scss';
+@import './components/Equipment/_Equipment.scss';
+
+
+
 @import './components/Slider/_Slider.scss';
 
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+$fontRoboto     : 'Roboto', sans-serif;
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: $fontRoboto;
+  font-size: 18px;
   color: black;
 }
