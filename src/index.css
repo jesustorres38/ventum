@@ -1,35 +1,79 @@
 @import url(~slick-carousel/slick/slick.css);
 @import url(~slick-carousel/slick/slick-theme.css);
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
 .App {
   text-align: center; }
 
 .Header {
   width: 100%;
-  position: fixed;
   z-index: 1; }
   .Header .Navbar_Desktop {
     max-width: 1400px;
-    border: 1px solid red;
     margin: 0 auto;
+    background-color: white;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
     .Header .Navbar_Desktop .Navbar_Logo {
-      border: 1px solid grey;
-      height: 50px;
-      width: 200px; }
-    .Header .Navbar_Desktop .Navbar_Content {
-      border: 1px solid blue;
-      height: 50px; }
-      .Header .Navbar_Desktop .Navbar_Content .contacto {
-        padding: 25px 100px 15px 5px; }
-        .Header .Navbar_Desktop .Navbar_Content .contacto a {
+      margin: 15px 0 10px 70px; }
+      .Header .Navbar_Desktop .Navbar_Logo img {
+        height: 90px;
+        width: 180px; }
+    .Header .Navbar_Desktop .Navbar_Content .contacto {
+      margin-right: 100px;
+      display: flex;
+      justify-content: flex-end; }
+      .Header .Navbar_Desktop .Navbar_Content .contacto a {
+        color: rgba(42, 42, 42, 0.7);
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 25pt;
+        margin: 15px 20px 0 0;
+        border-bottom: 1px solid rgba(42, 42, 42, 0.3);
+        transition: border-bottom 0.8s; }
+        .Header .Navbar_Desktop .Navbar_Content .contacto a:hover {
+          border-bottom: 1px solid #183a91; }
+        .Header .Navbar_Desktop .Navbar_Content .contacto a span {
+          font-weight: 500;
+          color: #2a2a2a; }
+      .Header .Navbar_Desktop .Navbar_Content .contacto .redes {
+        border-bottom: 1px solid rgba(42, 42, 42, 0.3); }
+        .Header .Navbar_Desktop .Navbar_Content .contacto .redes:hover {
+          border-bottom: 1px solid #183a91; }
+        .Header .Navbar_Desktop .Navbar_Content .contacto .redes a {
+          border-bottom: none;
+          margin-right: 0;
+          padding-bottom: 5px; }
+          .Header .Navbar_Desktop .Navbar_Content .contacto .redes a:hover {
+            color: #183a91;
+            background-color: transparent; }
+        .Header .Navbar_Desktop .Navbar_Content .contacto .redes .fab {
+          margin: 18px 0 0 0;
+          font-size: 18px; }
+        .Header .Navbar_Desktop .Navbar_Content .contacto .redes .fa-facebook-f {
+          margin-right: 15px; }
+    .Header .Navbar_Desktop .Navbar_Content .links ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      margin: 20px 100px 10px 0;
+      padding: 0;
+      width: 500px; }
+      .Header .Navbar_Desktop .Navbar_Content .links ul li {
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.6s; }
+        .Header .Navbar_Desktop .Navbar_Content .links ul li:hover {
+          border-bottom: 2px solid #2a2a2a; }
+        .Header .Navbar_Desktop .Navbar_Content .links ul li .active {
+          border-bottom: 2px solid #2a2a2a; }
+        .Header .Navbar_Desktop .Navbar_Content .links ul li a {
           text-decoration: none;
-          color: white;
-          font-size: 22px;
-          font-weight: 400; }
-          .Header .Navbar_Desktop .Navbar_Content .contacto a span {
-            font-weight: 500; }
+          text-transform: uppercase;
+          line-height: 20pt;
+          font-weight: 700;
+          color: #2a2a2a;
+          font-size: 12px; }
 
 .Home {
   max-width: 1400px;
@@ -45,17 +89,17 @@
 .slides .slide_1 {
   background: url("/images/4.png") no-repeat center center;
   background-size: cover;
-  height: 700px; }
+  height: 600px; }
 
 .slides .slide_2 {
-  background: url("/images/14.jpg") no-repeat center center;
+  background: url("/images/8.jpg") no-repeat center center;
   background-size: cover;
-  height: 700px; }
+  height: 600px; }
 
 .slides .slide_3 {
   background: url("/images/5.jpg") no-repeat center center;
   background-size: cover;
-  height: 700px; }
+  height: 600px; }
 
 body {
   margin: 0;
