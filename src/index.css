@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,700i");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
 @import url(~slick-carousel/slick/slick.css);
 @import url(~slick-carousel/slick/slick-theme.css);
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
 .App {
   text-align: center; }
 
@@ -74,6 +76,68 @@
           font-weight: 700;
           color: #2a2a2a;
           font-size: 12px; }
+      .Header .Navbar_Desktop .Navbar_Content .links ul .active {
+        border-bottom: 2px solid #183a91; }
+        .Header .Navbar_Desktop .Navbar_Content .links ul .active a {
+          color: #183a91; }
+
+.Footer {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #edf1f4; }
+  .Footer .Footer-1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px; }
+    .Footer .Footer-1 .info {
+      display: flex;
+      flex-direction: column;
+      margin: 50px 0 80px 50px; }
+      .Footer .Footer-1 .info img {
+        width: 180px;
+        height: 90px;
+        margin-bottom: 20px; }
+      .Footer .Footer-1 .info a {
+        color: rgba(42, 42, 42, 0.7);
+        text-decoration: none;
+        margin: 0 0 10px 5px; }
+        .Footer .Footer-1 .info a span {
+          color: #2a2a2a; }
+        .Footer .Footer-1 .info a:hover {
+          color: rgba(24, 58, 145, 0.7); }
+          .Footer .Footer-1 .info a:hover span {
+            color: #183a91; }
+      .Footer .Footer-1 .info p {
+        color: rgba(42, 42, 42, 0.7);
+        margin: 15px 0 10px 5px; }
+    .Footer .Footer-1 .menu {
+      display: flex;
+      align-items: center; }
+      .Footer .Footer-1 .menu a {
+        text-decoration: none;
+        text-transform: unset;
+        font-style: italic;
+        margin-right: 30px;
+        color: #2a2a2a; }
+        .Footer .Footer-1 .menu a:hover {
+          color: #183a91; }
+      .Footer .Footer-1 .menu .last {
+        margin-right: 0px; }
+    .Footer .Footer-1 .redes {
+      min-width: 300px; }
+  .Footer .Footer-2 {
+    border-top: 1px solid rgba(128, 128, 128, 0.18);
+    text-align: center;
+    margin: 0 50px; }
+    .Footer .Footer-2 p {
+      padding: 30px 0;
+      margin: 0;
+      font-family: "Roboto Condensed", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #8f8f8d; }
 
 .Home {
   max-width: 1400px;
@@ -87,19 +151,73 @@
   color: yellow; }
 
 .slides .slide_1 {
-  background: url("/images/4.png") no-repeat center center;
+  background: url("/images/4.2.png") no-repeat center center;
   background-size: cover;
-  height: 600px; }
+  height: 500px; }
 
 .slides .slide_2 {
   background: url("/images/8.jpg") no-repeat center center;
   background-size: cover;
-  height: 600px; }
+  height: 500px; }
 
 .slides .slide_3 {
   background: url("/images/5.jpg") no-repeat center center;
   background-size: cover;
-  height: 600px; }
+  height: 500px; }
+
+.slides .slick-slide div h1 {
+  opacity: 0;
+  font-size: 44px;
+  font-family: "Noto Serif", serif;
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 180px;
+  margin-bottom: 0;
+  text-shadow: black 3px 3px 3px; }
+
+.slides .slick-slide div h2 {
+  opacity: 0;
+  font-size: 30px;
+  font-family: "Noto Serif", serif;
+  color: white;
+  font-weight: 400;
+  margin-top: 0px;
+  text-shadow: black 3px 3px 3px; }
+
+.slides .slick-active div h1, .slides .slick-active div h2 {
+  transition: opacity 1s ease-in-out 1s;
+  opacity: 1; }
+
+.slides .slick-dots {
+  bottom: 20px; }
+  .slides .slick-dots li button:before {
+    font-size: 14px;
+    color: white; }
+  .slides .slick-dots .slick-active button:before {
+    color: white;
+    opacity: 1; }
+
+.slides .slick-prev {
+  left: 30px;
+  color: white;
+  z-index: 1;
+  font-size: 40px; }
+  .slides .slick-prev:hover {
+    color: white;
+    opacity: 0.75; }
+
+.slides .slick-next {
+  right: 40px;
+  color: white;
+  z-index: 1;
+  font-size: 40px; }
+  .slides .slick-next:hover {
+    color: white;
+    opacity: 0.75; }
+
+.slides .slick-prev:before, .slides .slick-next:before {
+  display: none; }
 
 body {
   margin: 0;

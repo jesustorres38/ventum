@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 class Header extends Component {
 
   render() {
-    
-    console.log(this.props);
+    const {pathname} = this.props.location;
+
     return (
       <div className="Header">
         <div className="Navbar_Desktop">
@@ -27,11 +27,11 @@ class Header extends Component {
             <div className="links">
               <ul>
 
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/equipment">Equipment</Link></li>
-                <li><Link to="/itinerary">Itinerary</Link></li>
-                <li><Link to="/prices">Prices</Link></li>
-                <li><Link to="/">Contact</Link></li>
+                <li className={pathname === '/' ? 'active':''}><Link to="/">Home</Link></li>
+                <li className={pathname === '/equipment' ? 'active':''}><Link to="/equipment">Equipment</Link></li>
+                <li className={pathname === '/itinerary' ? 'active':''}><Link to="/itinerary">Itinerary</Link></li>
+                <li className={pathname === '/prices' ? 'active':''}><Link to="/prices">Prices</Link></li>
+                <li className={pathname === '/contact' ? 'active':''}><Link to="/">Contact</Link></li>
                 
               </ul>
             </div>

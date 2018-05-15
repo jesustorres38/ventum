@@ -28,6 +28,8 @@
                 
                 a{
                     color: rgba(42, 42, 42, 0.7);
+
+                    // color: rgb(143, 143, 141);
                     text-decoration: none;
                     font-size: 12px;
                     font-weight: 400;
@@ -80,19 +82,23 @@
                         border-bottom: 2px solid transparent;
                         transition: border-color 0.6s;
                         &:hover{
-                            border-bottom: 2px solid #2a2a2a;
+                            border-bottom: 2px solid rgb(42, 42, 42);
                         }
                         .active{
-                            border-bottom: 2px solid #2a2a2a;
+                            border-bottom: 2px solid rgb(42, 42, 42);
                         }
                         a{
                             text-decoration: none;
                             text-transform: uppercase;
                             line-height: 20pt;
                             font-weight: 700;
-                            color: #2a2a2a;
+                            color: rgb(42, 42, 42);
                             font-size: 12px;       
                         }
+                    }
+                    .active{
+                        border-bottom: 2px solid #183a91;
+                        a{color: #183a91;}
                     }
                 }
             }
