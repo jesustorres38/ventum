@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 class Footer extends Component {
   render() {
+    const { pathname } = this.props.location;
     return (
       <div className="Footer">
         <div className="Footer-1">
@@ -14,12 +15,14 @@ class Footer extends Component {
             <p>C/ Port Barcelona <br/> CP: 08025 Barcelona (Spain)</p>
           </div>
           <div className="menu">
-            <Link to="/equipment">Equipment</Link>
-            <Link to="/itinerary">Itinerary</Link>
-            <Link className="last" to="/prices">Prices</Link>
+            <Link className={pathname === '/equipment' ? 'active':''} to="/equipment">Equipment</Link>
+            <Link className={pathname === '/itinerary' ? 'active':''}to="/itinerary">Itinerary</Link>
+            <Link className={pathname === '/prices' ? 'last active':'last'} to="/prices">Prices</Link>
           </div>
           <div className="redes">
-            <p>REDES</p>
+            <h1>Follow us:</h1>
+            <p><i className="fab fa-facebook-f"></i><a href="https://www.facebook.com/ventum.bcn/">Facebook</a></p>
+            <p><i className="fab fa-instagram"></i><a href="https://www.face/">Instagram</a></p>
           </div>
           
         </div>

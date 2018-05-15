@@ -27,7 +27,7 @@ class App extends Component {
             <Redirect to='/' />
           </Switch>
         
-        <Footer />
+        <Footer {...this.props} />
       </div>
     );
   }
