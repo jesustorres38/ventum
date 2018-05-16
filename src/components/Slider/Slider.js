@@ -34,7 +34,7 @@ class Slider extends Component {
         var settings = {
             dots: true,
             infinite: true,
-            speed: 1000,
+            speed: 1500,
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,

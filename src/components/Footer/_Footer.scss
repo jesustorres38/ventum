@@ -39,11 +39,19 @@
 
         .menu{
             display: flex;
-            align-items: center;
+            flex-direction: column;
+            margin: 60px 0 0 0;
+
+            h1{
+                text-align: left;
+                font-size: 28px;
+
+                font-family: $fontNoto;
+                color: rgb(24,58,145);
+            }
             a{
                 text-decoration: none;
                 text-transform: unset;
-                font-style: italic;
                 margin-right: 30px;
                 color: rgb(42,42,42);
                 &:hover{
@@ -65,12 +73,12 @@
             
             h1{
                 font-size: 28px;
-              
             }
 
             p{
                 display: flex;
                 align-items: center;
+               
 
                 &:hover{
                     a{
@@ -85,8 +93,7 @@
                 }
                 
                 a{
-                    // font-style: italic;
-                    // font-weight: 700;
+                    
                     text-align: right;
                     text-decoration: none;
                     font-size: 16px;

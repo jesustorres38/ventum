@@ -66,9 +66,11 @@
         border-bottom: 2px solid transparent;
         transition: border-color 0.6s; }
         .Header .Navbar_Desktop .Navbar_Content .links ul li:hover {
-          border-bottom: 2px solid #2a2a2a; }
+          border-bottom: 2px solid #183a91; }
+          .Header .Navbar_Desktop .Navbar_Content .links ul li:hover a {
+            color: #183a91; }
         .Header .Navbar_Desktop .Navbar_Content .links ul li .active {
-          border-bottom: 2px solid #2a2a2a; }
+          border-bottom: 2px solid #183a91; }
         .Header .Navbar_Desktop .Navbar_Content .links ul li a {
           text-decoration: none;
           text-transform: uppercase;
@@ -114,11 +116,16 @@
         margin: 15px 0 10px 5px; }
     .Footer .Footer-1 .menu {
       display: flex;
-      align-items: center; }
+      flex-direction: column;
+      margin: 60px 0 0 0; }
+      .Footer .Footer-1 .menu h1 {
+        text-align: left;
+        font-size: 28px;
+        font-family: "Noto Serif", serif;
+        color: #183a91; }
       .Footer .Footer-1 .menu a {
         text-decoration: none;
         text-transform: unset;
-        font-style: italic;
         margin-right: 30px;
         color: #2a2a2a; }
         .Footer .Footer-1 .menu a:hover {
@@ -171,6 +178,20 @@
   max-width: 1400px;
   margin: 0 auto;
   overflow: hidden; }
+  .Home .title {
+    font-family: "Noto Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #2a2a2a;
+    margin: 50px 0 25px 0;
+    padding: 0 0 5px 0;
+    display: inline-block;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+    text-transform: uppercase; }
+  .Home .description {
+    font-family: "Roboto", sans-serif;
+    margin: 0 15px 50px 15px;
+    color: rgba(42, 42, 42, 0.8); }
 
 .Prices a {
   color: yellow; }
@@ -217,7 +238,7 @@
   text-shadow: black 3px 3px 3px; }
 
 .slides .slick-active div h1, .slides .slick-active div h2 {
-  transition: opacity 1s ease-in-out 1s;
+  transition: opacity 1.5s ease-in-out 1s;
   opacity: 1; }
 
 .slides .slick-dots {
@@ -239,7 +260,7 @@
     opacity: 0.75; }
 
 .slides .slick-next {
-  right: 40px;
+  right: 35px;
   color: white;
   z-index: 1;
   font-size: 40px; }
@@ -251,22 +272,63 @@
   display: none; }
 
 .reviews {
-  background-color: #d7dae3; }
-  .reviews h1 {
+  background-color: #d7dae3;
+  padding: 0 5px; }
+  .reviews .review-title {
     margin: 0;
-    padding-top: 50px; }
-  .reviews .review-1 {
+    padding: 30px 0 5px 0;
+    font-family: "Noto Serif", serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #2a2a2a;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    display: inline-block; }
+  .reviews p {
+    margin: 30px auto 20px auto;
+    max-width: 600px;
+    font-style: italic;
+    color: rgba(42, 42, 42, 0.7);
+    font-family: "Roboto", sans-serif; }
+  .reviews .fas {
+    color: rgba(255, 221, 0, 0.75);
+    font-size: 22px;
+    margin: 0 2px 0 2px; }
+  .reviews h2 {
+    font-family: "Noto Serif", serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+    color: rgba(42, 42, 42, 0.7);
+    font-style: italic; }
+    .reviews h2 a {
+      text-decoration: none;
+      color: #183a91; }
+  .reviews .review {
     outline: transparent;
-    height: 300px; }
-  .reviews .review-2 {
-    outline: transparent;
-    height: 300px; }
-  .reviews .review-3 {
-    outline: transparent;
-    height: 300px; }
-  .reviews .review-4 {
-    outline: transparent;
-    height: 300px; }
+    height: 250px; }
+  .reviews .slick-dots {
+    bottom: 30px; }
+    .reviews .slick-dots .slick-active button:before {
+      color: #183a91; }
+    .reviews .slick-dots button:before {
+      font-size: 14px;
+      color: #183a91; }
+
+.Options {
+  display: flex;
+  min-height: 280px; }
+  .Options .option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/3);
+    height: 280px;
+    background-color: #fefefe;
+    transition: background-color 0.6s; }
+    .Options .option img {
+      transition: opacity 0.6s ease-in-out; }
+    .Options .option:hover {
+      background-color: #edf1f4; }
 
 body {
   margin: 0;

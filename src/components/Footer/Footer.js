@@ -14,17 +14,19 @@ class Footer extends Component {
             <a href="mailto:marcabad@ventum.barcelona">Email: <span>marcabad@ventum.barcelona</span></a>
             <p>C/ Port Barcelona <br/> CP: 08025 Barcelona (Spain)</p>
           </div>
-          <div className="menu">
-            <Link className={pathname === '/equipment' ? 'active':''} to="/equipment">Equipment</Link>
-            <Link className={pathname === '/itinerary' ? 'active':''}to="/itinerary">Itinerary</Link>
-            <Link className={pathname === '/prices' ? 'last active':'last'} to="/prices">Prices</Link>
-          </div>
           <div className="redes">
             <h1>Follow us:</h1>
             <p><i className="fab fa-facebook-f"></i><a href="https://www.facebook.com/ventum.bcn/">Facebook</a></p>
             <p><i className="fab fa-instagram"></i><a href="https://www.face/">Instagram</a></p>
           </div>
-          
+          <div className="menu">
+            <h1>See more:</h1>
+            <div>
+              <Link className={pathname === '/equipment' ? 'active':''} to="/equipment">Equipment</Link>
+              <Link className={pathname === '/itinerary' ? 'active':''}to="/itinerary">Itinerary</Link>
+              <Link className={pathname === '/prices' ? 'last active':'last'} to="/prices">Prices</Link>
+            </div>
+          </div>
         </div>
         <div className="Footer-2">
           <p>&copy; Copyright {(new Date()).getFullYear()} Ventum Barcelona</p>

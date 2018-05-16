@@ -44,7 +44,7 @@
     .slick-active{
         div{
             h1, h2{
-                transition: opacity 1s ease-in-out 1s;
+                transition: opacity 1.5s ease-in-out 1s;
                 opacity: 1;
             }
         }   
@@ -71,7 +71,7 @@
         }
     }
     .slick-next{
-        right: 40px;
+        right: 35px;
         color: white;
         z-index: 1;
         font-size: 40px;
