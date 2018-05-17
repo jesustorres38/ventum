@@ -1,5 +1,21 @@
 .Prices{
-    a{
-        color:yellow;
+    margin: 0 auto;
+    max-width: 1400px;
+
+    .title{
+        min-height: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url('/images/prices2.jpg') no-repeat center center;
+        background-size: cover;
+        
+        h1{
+            font-size: 44px;
+            font-family: $fontNoto;
+            color: white;
+            font-style: italic;
+            text-shadow: black 3px 3px 3px;
+        }
     }
 }

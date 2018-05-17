@@ -1,18 +1,18 @@
 .slides{
     .slide_1{
-        background: url('/images/4.2.png') no-repeat center center;
+        background: url('/images/slide-1.png') no-repeat center center;
         background-size: cover;
         height: 500px;
         outline: transparent;
     }
     .slide_2{
-        background: url('/images/8.jpg') no-repeat center center;
+        background: url('/images/slide-2.jpg') no-repeat center center;
         background-size: cover;
         height: 500px;
         outline: transparent;
     }
     .slide_3{
-        background: url('/images/5.jpg') no-repeat center center;
+        background: url('/images/slide-3.jpg') no-repeat center center;
         background-size: cover;
         height: 500px;
         outline: transparent;
@@ -39,11 +39,28 @@
                 margin-top: 0px;
                 text-shadow: black 3px 3px 3px;
             }
+            a{
+                opacity: 0;
+                font-family: $fontNoto;
+                font-style: italic;
+                border-radius: 4px;
+                text-decoration: none;
+                padding: 10px 20px;
+                margin-top: 10px;
+                display: inline-block;
+                font-size: 18px;
+                background-color: white;
+                color: rgb(24,58,145);
+                &:hover{
+                    background-color: #edf1f4;
+                }
+
+            }
         }
     }
     .slick-active{
         div{
-            h1, h2{
+            h1, h2, a{
                 transition: opacity 1.5s ease-in-out 1s;
                 opacity: 1;
             }

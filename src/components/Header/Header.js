@@ -10,7 +10,7 @@ class Header extends Component {
       <div className="Header">
         <div className="Navbar_Desktop">
           <div className="Navbar_Logo">
-            <img src="/images/logo.jpg" alt="logo-ventum" />
+            <Link to='/'><img src="/images/logo.jpg" alt="logo-ventum" /></Link>
           </div>
 
           <div className="Navbar_Content">

@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-
-// import './App.css';
 
 class Prices extends Component {
   render() {
     return (
       <div className="Prices">
-        <Link to="/">Home</Link>
+        <div className='title'>
+          <h1>Prices</h1>
+        </div>
       </div>
     );
   }

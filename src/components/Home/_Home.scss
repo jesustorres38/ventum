@@ -16,8 +16,16 @@
 
     }
     .description{
+        text-align: center;
         font-family: $fontRoboto;
-        margin: 0 15px 50px 15px;
+        margin: 0 50px 50px 50px;
         color: rgba(42, 42, 42, 0.8);  
+        font-size: 18px;
+        a{
+            text-decoration: none;
+            font-style: italic;
+            color: rgb(24,58,145);
+            font-family: $fontNoto;
+        }
     }
 }

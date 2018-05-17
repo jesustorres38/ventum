@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import SliderSlick   from 'react-slick';
-
-// import './App.css';
+import { Link } from 'react-router-dom';
 
 function SampleNextArrow(props) {
   const {className, style, onClick} = props;
@@ -34,13 +33,13 @@ class Slider extends Component {
         var settings = {
             dots: true,
             infinite: true,
-            speed: 1500,
+            speed: 1800,
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
-            autoplay: false,
-            pauseOnHover: false,
-            autoplaySpeed: 4000,
+            autoplay: true,
+            pauseOnHover: true,
+            autoplaySpeed: 4500,
             className: 'slides',
             nextArrow: <SampleNextArrow />,
             prevArrow: <SamplePrevArrow />
@@ -50,14 +49,17 @@ class Slider extends Component {
             <div className="slide_1">
               <h1>Welcome to Ventum</h1>
               <h2>Barcelona</h2>
+              <Link to='/equipment'>Equipment</Link>
             </div>
             <div className="slide_2">
               <h1>Welcome to Ventum</h1>
               <h2>Barcelona</h2>
+              <Link to='/itinerary'>Itinerary</Link>
             </div>
             <div className="slide_3">
               <h1>Welcome to Ventum</h1>
               <h2>Barcelona</h2>
+              <Link to='/prices'>Prices</Link>
             </div>
           </SliderSlick>
         );

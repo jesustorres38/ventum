@@ -9,7 +9,7 @@ class Footer extends Component {
       <div className="Footer">
         <div className="Footer-1">
           <div className="info">
-            <img src="/images/logo-footer.png" alt="logo-footer" />
+            <Link to='/'><img src="/images/logo-footer.png" alt="logo-footer" /></Link>
             <a href="tel:+34626482695">Phone: <span>+34 626 482 695</span></a>
             <a href="mailto:marcabad@ventum.barcelona">Email: <span>marcabad@ventum.barcelona</span></a>
             <p>C/ Port Barcelona <br/> CP: 08025 Barcelona (Spain)</p>
@@ -29,7 +29,7 @@ class Footer extends Component {
           </div>
         </div>
         <div className="Footer-2">
-          <p>&copy; Copyright {(new Date()).getFullYear()} Ventum Barcelona</p>
+          <p><i className="far fa-copyright"></i> Copyright {(new Date()).getFullYear()} Ventum Barcelona</p>
         </div>
       </div>
     );
