@@ -1,6 +1,7 @@
 .Prices{
     margin: 0 auto;
     max-width: 1400px;
+    text-align: left;
 
     .title{
         min-height: 260px;
@@ -17,5 +18,108 @@
             font-style: italic;
             text-shadow: black 3px 3px 3px;
         }
+    }
+
+    .subTitle{
+        font-family: "Noto Serif", serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #2a2a2a;
+        margin: 50px 0 0 70px;
+        padding: 0 0 5px 0;
+        display: inline-block;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+        text-transform: uppercase;
+    }
+
+    .base{
+        margin: 0 100px 0 70px;
+
+        h2{
+            font-family: $fontRobotoCondensed;
+            font-weight: 700;
+            color: rgba(42,42,42,0.85);
+            font-size: 18px;
+            margin: 20px 0 0 20px;; 
+        }
+        a{
+            display: block;
+            text-decoration: none;
+            font-size: 16px;
+            font-family: $fontRobotoCondensed;
+            font-weight: 400;
+            color: rgba(42, 42, 42, 0.7);
+            margin: 0px 0 0 30px; 
+            &:hover{
+                color: rgb(24,58,145);
+                text-decoration: underline;
+            }
+        }
+
+    }
+
+    .seasons{
+        margin: 0 100px 20px 70px; 
+        display: flex;
+        justify-content: space-between;
+
+        h1{
+            margin: 20px 0 0 0;
+            font-family: "Noto Serif", serif;
+            font-size: 18px;
+            font-weight: 400;
+            color: #2a2a2a;
+        }
+
+        .cont{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: calc(100%/3);
+            text-align: center;
+            padding: 0 30px;
+
+            p{
+                font-family: $fontRobotoCondensed;
+                font-size: 14px;
+                color:rgba(42, 42, 42, 0.7);
+                margin: 0;
+            }
+            .subcont{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                width: 100%;
+                background-color: #edf1f4;
+                padding: 0 10px;
+                margin: 5px 50px;
+                font-style: italic;
+            }
+        }
+
+
+    }
+
+    .conditions{
+        margin: 0 100px 0 70px; 
+
+        h2{
+            font-family: $fontRobotoCondensed;
+            font-weight: 700;
+            color: rgba(42,42,42,0.85);
+            font-size: 18px;
+            margin: 20px 0 0 20px;; 
+        }
+        p{
+            font-size: 16px;
+            font-family: $fontRobotoCondensed;
+            font-weight: 400;
+            color: rgba(42, 42, 42, 0.7);
+            margin: 0px 0 0 30px; 
+        }
+    }
+
+    .last{
+        margin-bottom: 50px;
     }
 }

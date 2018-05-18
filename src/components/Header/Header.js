@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class Header extends Component {
 
@@ -31,7 +32,7 @@ class Header extends Component {
                 <li className={pathname === '/equipment' ? 'active':''}><Link to="/equipment">Equipment</Link></li>
                 <li className={pathname === '/itinerary' ? 'active':''}><Link to="/itinerary">Itinerary</Link></li>
                 <li className={pathname === '/prices' ? 'active':''}><Link to="/prices">Prices</Link></li>
-                <li className={pathname === '/contact' ? 'active':''}><Link to="/">Contact</Link></li>
+                <li className={pathname === '/contact' ? 'active':''}><AnchorLink href='#contact'>Contact</AnchorLink></li>
                 
               </ul>
             </div>

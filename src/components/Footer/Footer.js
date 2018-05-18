@@ -6,7 +6,7 @@ class Footer extends Component {
   render() {
     const { pathname } = this.props.location;
     return (
-      <div className="Footer">
+      <div className="Footer" id='contact'>
         <div className="Footer-1">
           <div className="info">
             <Link to='/'><img src="/images/logo-footer.png" alt="logo-footer" /></Link>
