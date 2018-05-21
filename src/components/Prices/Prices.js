@@ -74,7 +74,6 @@ class Prices extends Component {
         </div>
 
         <div className='conditions'>
-          
           <h2>Crew</h2>
           <p>- Captain: 175€/day (obligatory options, without discount) <br/>- Sailor: 150 €/day (optional; without discount). It necessary that clients ask for sail if they need it to sail.<br/>- Service: 125 /day (optional; without discount)</p>
           

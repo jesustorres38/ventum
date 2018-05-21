@@ -9,10 +9,7 @@ class Mark extends Component {
     return (
       <div className="Mark">
         <i className="fas fa-ship">
-          <div className='info'>
-            <p>{this.props.data.nombre}</p>
-            <p>{this.props.data.fecha}</p>
-          </div>
+          
         </i>
 
       </div>
