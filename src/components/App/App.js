@@ -11,6 +11,10 @@ import Equipment from '../Equipment/Equipment';
 
 
 class App extends Component {
+
+  componentDidUpdate(prevProps,prevState){
+    if (this.props.location !== prevProps.location) { window.scrollTo(0, 0); }
+  }
   
   render() {
     

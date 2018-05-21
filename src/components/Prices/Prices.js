@@ -85,7 +85,7 @@ class Prices extends Component {
         <h1 className='subTitle'>Payment and Discounts</h1>
         <div className='conditions'>
           <h2>Normal conditions</h2>
-          <p>- 40% paid just booking + 60% paid 1 month before departure</p>
+          <p>- 40% paid just booking + 60% paid 1 month before departure.</p>
 
           <h2>Discount policy</h2>
           <p> - 15 % if the charter is 100% paid 3 months before departure.<br/>- 10% if the charter is 100% paid 2 months before departure.<br/>- 5% for repeat clients.<br/>- All discounts are for all kind of charters duration, and are progressive if there are more than one discount: first for payment in advance.<br/></p>
