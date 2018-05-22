@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ImageGallery from 'react-image-gallery'
 
 class Itinerary extends Component {
   
@@ -110,6 +111,42 @@ class Itinerary extends Component {
 
   render() {
 
+    const images = [
+      {
+        original: '/images/singladuras/4.jpg',
+        thumbnail: '/images/singladuras/4.jpg'
+      },
+      {
+        original: '/images/singladuras/3.jpg',
+        thumbnail: '/images/singladuras/3.jpg'
+      },
+      {
+        original: '/images/singladuras/1.jpg',
+        thumbnail: '/images/singladuras/1.jpg'
+      },
+      {
+        original: '/images/singladuras/5.jpg',
+        thumbnail: '/images/singladuras/5.jpg'
+      },
+      {
+        original: '/images/singladuras/6.jpg',
+        thumbnail: '/images/singladuras/6.jpg'
+      },
+      {
+        original: '/images/singladuras/7.jpg',
+        thumbnail: '/images/singladuras/7.jpg'
+      },
+      {
+        original: '/images/singladuras/8.jpg',
+        thumbnail: '/images/singladuras/8.jpg'
+      },
+      {
+        original: '/images/singladuras/9.jpg',
+        thumbnail: '/images/singladuras/9.jpg'
+      }
+
+    ]
+
     return (
       <div className="Itinerary">
 
@@ -120,40 +157,48 @@ class Itinerary extends Component {
         
         <div className='conditions'>
 
-          <h2>Next Trips</h2>
-          {this.markers.map((x,i)=>{
-            if(x.singladura === 1){
-              return(
-                <p onClick={()=> this.initMapOne(x)} key={x.nombre+i}>- {x.nombre} <span>({x.fecha})</span></p>
-              );
-            }
-            else{
-              return false;
-            }
-          })}
+          <div>
+            <h2>Next Trips</h2>
+            {this.markers.map((x,i)=>{
+              if(x.singladura === 1){
+                return(
+                  <p onClick={()=> this.initMapOne(x)} key={x.nombre+i}>- {x.nombre} <span>({x.fecha})</span></p>
+                );
+              }
+              else{
+                return false;
+              }
+            })}
+          </div>
           
+          <div>
+            <h2>Past Trips</h2>
+            {this.markers.map((x,i)=>{
+              if(x.singladura === 0){
+                return(
+                  <p onClick={()=> this.initMapOne(x)} key={x.nombre+i}>- {x.nombre} <span>({x.fecha})</span></p>
+                );
+              }
+              else{
+                return false;
+              }
+            })}
+          </div>
           
-          <h2>Past Trips</h2>
-          {this.markers.map((x,i)=>{
-            if(x.singladura === 0){
-              return(
-                <p onClick={()=> this.initMapOne(x)} key={x.nombre+i}>- {x.nombre} <span>({x.fecha})</span></p>
-              );
-            }
-            else{
-              return false;
-            }
-          })}
-
-          <h2>all</h2>
-          <p onClick={() => this.initMap()}>- See all trips</p>
+          <div>
+            <h2>all</h2>
+            <p onClick={() => this.initMap()}>- See all trips</p>
+          </div>
           
         </div>
 
 
         <h1 className='subTitle'>last trips photos</h1>
         <div className='gallery'>
-
+          <ImageGallery 
+            items={images} 
+            slideDuration={700}
+          />
         </div>
         
 

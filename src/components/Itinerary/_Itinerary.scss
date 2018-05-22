@@ -20,24 +20,27 @@
         text-transform: uppercase;
     }
 
-    
-
     .conditions{
+        display: flex;
         margin: 0 60px 0 70px; 
+
+        div{
+            margin-left: 50px;
+        }
 
         h2{
             font-family: $fontRobotoCondensed;
             font-weight: 700;
             color: rgba(42,42,42,0.85);
             font-size: 18px;
-            margin: 20px 0 0 20px;; 
+            margin: 20px 0 0 0px;; 
         }
         p{
             font-size: 16px;
             font-family: $fontRobotoCondensed;
             font-weight: 400;
             color: rgba(42, 42, 42, 0.7);
-            margin: 0px 0 0 30px; 
+            margin: 0px 0 0 10px; 
             &:hover{
                 color: #183a91;
                 text-decoration: underline;
@@ -51,10 +54,10 @@
     }
 
     .gallery{
-        margin: 50px 100px 70px 70px;
-        border: 1px solid red;
-        min-width: 700px;
-        min-height: 300px;
+        margin: 50px 0 70px 120px;
+        max-width: 500px;
+        height: 500px;
+        
     }
     
     
