@@ -113,36 +113,44 @@ class Itinerary extends Component {
 
     const images = [
       {
-        original: '/images/singladuras/4.jpg',
-        thumbnail: '/images/singladuras/4.jpg'
+        original: '/images/bestMoments/4.jpg',
+        thumbnail: '/images/bestMoments/4.jpg',
+        description: 'Baleares'
       },
       {
-        original: '/images/singladuras/3.jpg',
-        thumbnail: '/images/singladuras/3.jpg'
+        original: '/images/bestMoments/3.jpg',
+        thumbnail: '/images/bestMoments/3.jpg',
+        description: 'Baleares'
       },
       {
-        original: '/images/singladuras/1.jpg',
-        thumbnail: '/images/singladuras/1.jpg'
+        original: '/images/bestMoments/1.jpg',
+        thumbnail: '/images/bestMoments/1.jpg',
+        description: 'Baleares'
       },
       {
-        original: '/images/singladuras/5.jpg',
-        thumbnail: '/images/singladuras/5.jpg'
+        original: '/images/bestMoments/5.jpg',
+        thumbnail: '/images/bestMoments/5.jpg',
+        description: 'Cartagena'
       },
       {
-        original: '/images/singladuras/6.jpg',
-        thumbnail: '/images/singladuras/6.jpg'
+        original: '/images/bestMoments/6.jpg',
+        thumbnail: '/images/bestMoments/6.jpg',
+        description: 'Cartagena'
       },
       {
-        original: '/images/singladuras/7.jpg',
-        thumbnail: '/images/singladuras/7.jpg'
+        original: '/images/bestMoments/7.jpg',
+        thumbnail: '/images/bestMoments/7.jpg',
+        description: 'Cerdeña'
       },
       {
-        original: '/images/singladuras/8.jpg',
-        thumbnail: '/images/singladuras/8.jpg'
+        original: '/images/bestMoments/8.jpg',
+        thumbnail: '/images/bestMoments/8.jpg',
+        description: 'Cerdeña'
       },
       {
-        original: '/images/singladuras/9.jpg',
-        thumbnail: '/images/singladuras/9.jpg'
+        original: '/images/bestMoments/9.jpg',
+        thumbnail: '/images/bestMoments/9.jpg',
+        description: 'Premià de Mar'
       }
 
     ]
@@ -193,11 +201,13 @@ class Itinerary extends Component {
         </div>
 
 
-        <h1 className='subTitle'>last trips photos</h1>
+        <h1 className='subTitle'>Best moments</h1>
         <div className='gallery'>
           <ImageGallery 
             items={images} 
             slideDuration={700}
+            thumbnailPosition={'left'}
+            showPlayButton={false}
           />
         </div>
         

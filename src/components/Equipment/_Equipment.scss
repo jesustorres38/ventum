@@ -1,3 +1,70 @@
 .Equipment{
-    min-height: 700px;
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: left;
+    min-height: 1000px;
+
+    .title{
+        min-height: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url('/images/equipment.jpg') no-repeat center center;
+        background-size: cover;
+        
+        h1{
+            font-size: 44px;
+            font-family: $fontNoto;
+            color: white;
+            font-style: italic;
+            text-shadow: black 3px 3px 3px;
+        }
+    }
+
+    .subTitle{
+        font-family: "Noto Serif", serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #2a2a2a;
+        margin: 50px 0 0 70px;
+        padding: 0 0 5px 0;
+        display: inline-block;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+        text-transform: uppercase;
+    }
+
+    .item{
+        margin: 40px 100px 0 70px;
+        display: flex;
+        .fotos{
+            width: 500px;
+            height: 280px;
+        }
+
+        .info{
+            min-width: 400px;
+            min-height: 300px;
+            padding-top: 20px;
+            h2{
+                font-family: $fontRobotoCondensed;
+                font-weight: 700;
+                color: rgba(42,42,42,0.85);
+                font-size: 18px;
+                margin: 0 0 0 20px;; 
+            }
+            p{
+                font-size: 16px;
+                font-family: $fontRobotoCondensed;
+                font-weight: 400;
+                line-height: 16pt;
+                color: rgba(42, 42, 42, 0.7);
+                margin: 5px 0 0 30px; 
+            }
+        }
+    }
+
+
+
+
+
 }

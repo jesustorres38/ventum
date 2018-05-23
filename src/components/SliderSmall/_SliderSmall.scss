@@ -1,0 +1,23 @@
+.slidesSmall{
+    .slide_1{
+        height: 280px;
+        outline: transparent;
+        img{
+            height: 280px;
+            width: 100%;
+        }
+    }
+    
+    .slick-dots{
+        bottom: 20px;
+        li button:before{
+            font-size: 14px;
+            color: white;
+        }
+        .slick-active button:before{
+            color: white;
+            opacity: 1;
+        }
+    }
+            
+}

@@ -12,7 +12,7 @@ class Reviews extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
-            autoplay: false,
+            autoplay: true,
             pauseOnHover: false,
             autoplaySpeed: 4000,
             className: 'reviews'
@@ -34,7 +34,7 @@ class Reviews extends Component {
               <div className="review">
               <p>"Excellent option to travel with friends."</p>
                 <Rating stars={5}/>
-                <h2><a>Francisco</a>, Bristol UK</h2>
+                <h2><a href="https://www.instagram.com/jesustorres38/">Jesus</a>, Bristol UK</h2>
               </div>
               <div className="review">
               <p>"I loved the sailboat, everything was clean and tidy very comfortable to go with children."</p>
