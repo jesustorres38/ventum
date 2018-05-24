@@ -12,14 +12,16 @@ class Itinerary extends Component {
         singladura: 0,
         position: {lat: 40.19, lng: 7.82},
         icon: '/images/markerOff.png',
-        fecha: 'Septiembre 2017'
+        fecha: 'Septiembre 2017',
+        link: 'https://www.facebook.com/ventum.bcn/photos/pcb.1645204352245559/1645201648912496/?type=3&theater'
       },
       {
         nombre: 'Cartagena',
         singladura: 0,
         position: {lat: 37.49, lng: -1.08},
         icon: '/images/markerOff.png',
-        fecha: 'Marzo 2018'
+        fecha: 'Marzo 2018',
+        link: 'https://www.facebook.com/ventum.bcn/photos/pcb.1645546695544658/1645539915545336/?type=3&theater'
       },
       {
         nombre: 'Eolicas (Sicilia)',
@@ -40,7 +42,8 @@ class Itinerary extends Component {
         singladura: 1,
         position: {lat: 41.48, lng: 2.36},
         icon: '/images/markerOn.png',
-        fecha: 'Septiembre-Octubre'
+        fecha: 'Septiembre-Octubre',
+        link: 'https://www.facebook.com/ventum.bcn/photos/pcb.1645538478878813/1645536132212381/?type=3&theater'
       },
       {
         nombre: 'Canarias',
@@ -118,13 +121,13 @@ class Itinerary extends Component {
         description: 'Baleares'
       },
       {
-        original: '/images/bestMoments/3.jpg',
-        thumbnail: '/images/bestMoments/3.jpg',
+        original: '/images/bestMoments/1.jpg',
+        thumbnail: '/images/bestMoments/1.jpg',
         description: 'Baleares'
       },
       {
-        original: '/images/bestMoments/1.jpg',
-        thumbnail: '/images/bestMoments/1.jpg',
+        original: '/images/bestMoments/3.jpg',
+        thumbnail: '/images/bestMoments/3.jpg',
         description: 'Baleares'
       },
       {
@@ -184,7 +187,7 @@ class Itinerary extends Component {
             {this.markers.map((x,i)=>{
               if(x.singladura === 0){
                 return(
-                  <p onClick={()=> this.initMapOne(x)} key={x.nombre+i}>- {x.nombre} <span>({x.fecha})</span></p>
+                  <p onClick={()=> this.initMapOne(x)} key={x.nombre+i}>- {x.nombre} <span>({x.fecha})</span> </p>
                 );
               }
               else{
