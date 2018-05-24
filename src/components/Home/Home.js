@@ -11,7 +11,7 @@ class Home extends Component {
       <div className="Home">
           <Slider />
           <h1 className='title'>Ventum</h1>
-          <p className='description'>Ut euismod sed quam vel dapibus. Nullam porttitor urna sit amet tellus euismod, sit amet dictum diam tempor. Mauris pharetra fermentum mi id egestas. <a href='ddd'>Captain Marc Abad</a> Praesent ullamcorper placerat nibh et elementum. Cras ut commodo risus. Phasellus sit amet ligula sem. Suspendisse pharetra tristique feugiat.<br/><br/>Phasellus sit amet ligula sem. Suspendisse pharetra tristique feugiat. Phasellus sit amet ligula sem. Suspendisse pharetra tristique feugiat. Phasellus sit amet ligula sem. Suspendisse pharetra tristique feugiat. Phasellus sit amet ligula sem. Suspendisse pharetra tristique feugiat.Phasellus sit amet ligula sem. Suspendisse pharetra tristique feugiat. Phasellus sit amet ligula sem. Suspendisse pharetra tristique feugiat.Phasellus sit amet ligula sem. Suspendisse pharetra tristique feugiat.</p>
+          <p className='description'>Ventum is a vital experience, navigating all those seas of the world, respecting and enjoying them. Sharing trips with other sailors, crew and friends.</p>
           <Options />
           <Reviews />
       </div>

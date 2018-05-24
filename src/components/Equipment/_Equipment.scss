@@ -34,15 +34,22 @@
     }
 
     .item{
-        margin: 40px 100px 0 70px;
+        margin: 40px 70px 50px 70px;
         display: flex;
-        .fotos{
-            width: 500px;
-            height: 280px;
+        justify-content: center;
+
+        .fotosH{
+            width: 400px;
+            height: 300px;
+        }
+
+        .fotosV{
+            width: 400px;
+            height: 400px;
         }
 
         .info{
-            min-width: 400px;
+            width: 50%;
             min-height: 300px;
             padding-top: 20px;
             h2{
@@ -62,6 +69,33 @@
             }
         }
     }
+
+    .conditions{
+        margin: 0 100px 0 70px; 
+
+        h2{
+            font-family: $fontRobotoCondensed;
+            font-weight: 700;
+            color: rgba(42,42,42,0.85);
+            font-size: 18px;
+            margin: 20px 0 0 20px;; 
+        }
+        p{
+            font-size: 16px;
+            font-family: $fontRobotoCondensed;
+            font-weight: 400;
+            color: rgba(42, 42, 42, 0.7);
+            margin: 0px 0 0 30px; 
+        }
+        .first{
+            margin-top: 20px;
+        }
+    }
+
+    .last{
+        margin-bottom: 100px;
+    }
+    
 
 
 

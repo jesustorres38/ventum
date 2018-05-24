@@ -5,7 +5,7 @@ class SliderSmall extends Component {
 
     constructor(props){
       super(props);
-      console.log(props);
+      console.log(props.images);
     }
     render() {
         var settings = {
@@ -21,12 +21,13 @@ class SliderSmall extends Component {
         };
         return (
           <SliderSlick {...settings}>
-            <div className="slide_1">
-              <img src='/images/slide-1.png' alt='equipment'/>
-            </div>
-            <div className="slide_1">
-              <img src='/images/slide-1.png' alt='equipment'/>
-            </div>
+            {this.props.images.map((x,i)=>{
+              return (
+                <div key={x+i} className="slide_1">
+                  <img src={x.url} alt='equipment'/>
+                </div>
+              )
+            })}
           </SliderSlick>
         );
   }
