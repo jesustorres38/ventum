@@ -3,10 +3,6 @@ import SliderSlick   from 'react-slick'
 
 class SliderSmallVer extends Component {
 
-    constructor(props){
-      super(props);
-      console.log(props.images);
-    }
     render() {
         var settings = {
             dots: true,

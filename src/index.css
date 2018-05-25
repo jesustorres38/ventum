@@ -4,6 +4,7 @@
 @import url(~slick-carousel/slick/slick.css);
 @import url(~slick-carousel/slick/slick-theme.css);
 @import url(~react-image-gallery/styles/css/image-gallery.css);
+@import url(~aos/dist/aos.css);
 .App {
   text-align: center; }
 
