@@ -25,7 +25,7 @@ class Prices extends Component {
           </div>
           <div>
             <h2>Eivissa</h2>
-            <a href='https://www.google.com/maps?q= Marina Port de Santa Eulàlia, Eivissa' target='_blank' rel="noopener noreferrer">- Marina Port de Santa Eulàlia</a>
+            <a href='https://www.google.com/maps?q= Club Nautic Eivissa, Eivissa' target='_blank' rel="noopener noreferrer">- Club Nautic Eivissa</a>
           </div>
 
         </div>
@@ -35,7 +35,7 @@ class Prices extends Component {
 
           <div className='cont'>
             <h1>Low</h1>
-            <p>24/03 - 15/06</p>
+            <p>01/01 - 30/06 and 08/09 - 31/12</p>
             <div className='subcont'>
               <p>1 Day</p>
               <p>650€</p>
@@ -48,7 +48,7 @@ class Prices extends Component {
 
           <div className='cont'>
             <h1>Middle</h1>
-            <p>16/06 - 20/07</p>
+            <p>30/06 - 21/07 and 25/08 - 08/09</p>
             <div className='subcont'>
               <p>1 Day</p>
               <p>850€</p>
@@ -61,7 +61,7 @@ class Prices extends Component {
 
           <div className='cont'>
             <h1>High</h1>
-            <p>21/07 - 24/08</p>
+            <p>21/07 - 25/08</p>
             <div className='subcont'>
               <p>1 Day</p>
               <p>950€</p>
@@ -75,10 +75,10 @@ class Prices extends Component {
 
         <div className='conditions'>
           <h2>Crew</h2>
-          <p>- Captain: 175€/day (obligatory options, without discount) <br/>- Sailor: 150 €/day (optional; without discount). It necessary that clients ask for sail if they need it to sail.<br/>- Service: 125 /day (optional; without discount)</p>
+          <p>- 150 €/dia skeeper. <br/>- 125 €/dia sailor-hostess.</p>
           
           <h2>Others</h2>
-          <p>- Deposit: 2500€ (obligatory options)<br/>- End cleaning: 150€ (obligatory options, without discount)<br/>- Bed sheets: 20€/person (obligatory options, without discount)</p>
+          <p>- End cleaning: 140 €/week. <br/>- Bed sheets: 80 €/week for booking.</p>
         </div>
 
         <h1 className='subTitle'>Payment and Discounts</h1>
@@ -93,7 +93,7 @@ class Prices extends Component {
         <h1 className='subTitle'>Check In/Out</h1>
         <div className='conditions last'>
           <h2>7 Days charter</h2>
-          <p>- Checkin time: Saturday at 12 h.</p>
+          <p>- Saturday: In 15 h. / Out 10 h.</p>
 
           <h2>1 Day charter</h2>
           <p> - 15 % if the charter is 100% paid 3 months before departure.<br/>- 10% if the charter is 100% paid 2 months before departure.<br/>- 5% for repeat clients.<br/>- All discounts are for all kind of charters duration, and are progressive if there are more than one discount: first for payment in advance.<br/></p>

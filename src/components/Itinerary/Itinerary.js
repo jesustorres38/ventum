@@ -8,23 +8,39 @@ class Itinerary extends Component {
 
     this.markers = [
       {
-        nombre: 'Cerdeña',
+        nombre: 'Premià de Mar',
         singladura: 0,
-        position: {lat: 40.19, lng: 7.82},
+        position: {lat: 41.48, lng: 2.36},
         icon: '/images/markerOff.png',
-        fecha: 'Septiembre 2017',
-        link: 'https://www.facebook.com/ventum.bcn/photos/pcb.1645204352245559/1645201648912496/?type=3&theater'
+        fecha: '2017',
+        link: 'https://www.facebook.com/ventum.bcn/photos/pcb.1645538478878813/1645536132212381/?type=3&theater'
       },
       {
         nombre: 'Cartagena',
         singladura: 0,
         position: {lat: 37.49, lng: -1.08},
         icon: '/images/markerOff.png',
-        fecha: 'Marzo 2018',
+        fecha: '2018',
         link: 'https://www.facebook.com/ventum.bcn/photos/pcb.1645546695544658/1645539915545336/?type=3&theater'
       },
       {
-        nombre: 'Eolicas (Sicilia)',
+        nombre: 'Cerdeña',
+        singladura: 0,
+        position: {lat: 40.19, lng: 7.82},
+        icon: '/images/markerOff.png',
+        fecha: '2017',
+        link: 'https://www.facebook.com/ventum.bcn/photos/pcb.1645204352245559/1645201648912496/?type=3&theater'
+      },     
+      {
+        nombre: 'Baleares',
+        singladura: 0,
+        position: {lat: 39.14, lng: 2.11},
+        icon: '/images/markerOff.png',
+        fecha: '2017',
+        link: 'https://www.facebook.com/ventum.bcn/photos/pcb.1645527242213270/1645525262213468/?type=3&theater'
+      },
+      {
+        nombre: 'Eolicas',
         singladura: 1,
         position: {lat: 38.49, lng: 14.88},
         icon: '/images/markerOn.png',
@@ -42,7 +58,7 @@ class Itinerary extends Component {
         singladura: 1,
         position: {lat: 41.48, lng: 2.36},
         icon: '/images/markerOn.png',
-        fecha: 'Septiembre-Octubre',
+        fecha: 'Septiembre-Octubre 2018',
         link: 'https://www.facebook.com/ventum.bcn/photos/pcb.1645538478878813/1645536132212381/?type=3&theater'
       },
       {
@@ -51,6 +67,21 @@ class Itinerary extends Component {
         position: {lat: 29.19, lng: -15.51},
         icon: '/images/markerOn.png',
         fecha: 'Noviembre 2018'
+      },
+      {
+        nombre: 'Travesia Atlantico',
+        singladura: 1,
+        position: {lat: 11.85, lng: -32.95},
+        icon: '/images/markerOn.png',
+        fecha: 'Diciembre 2018'
+      }
+      ,
+      {
+        nombre: 'Caribe',
+        singladura: 1,
+        position: {lat: 15.68, lng: -76.32},
+        icon: '/images/markerOn.png',
+        fecha: 'Diciembre 2018'
       }
     ]
   }
@@ -187,7 +218,7 @@ class Itinerary extends Component {
             {this.markers.map((x,i)=>{
               if(x.singladura === 0){
                 return(
-                  <p onClick={()=> this.initMapOne(x)} key={x.nombre+i}>- {x.nombre} <span>({x.fecha})</span> </p>
+                  <p onClick={()=> this.initMapOne(x)} key={x.nombre+i}>- {x.nombre} <span>({x.fecha})</span><a href={x.link} target='_blank' rel="noopener noreferrer"> Photos</a> </p>
                 );
               }
               else{

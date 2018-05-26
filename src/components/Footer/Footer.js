@@ -11,7 +11,7 @@ class Footer extends Component {
             <Link to='/'><img src="/images/logo-footer.png" alt="logo-footer" /></Link>
             <a href="tel:+34626482695">Phone: <span>+34 626 482 695</span></a>
             <a href="mailto:marcabad@ventum.barcelona">Email: <span>marcabad@ventum.barcelona</span></a>
-            <p>C/ Port Olimpic de Barcelona <br/> CP: 08005 Barcelona (Spain)</p>
+            <p>Marina Port Premià<br/> CP: 08330 Barcelona (Spain)</p>
           </div>
           <div className="redes">
             <h1>Follow us:</h1>

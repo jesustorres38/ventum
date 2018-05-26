@@ -12,11 +12,24 @@ import Equipment from '../Equipment/Equipment';
 
 class App extends Component {
 
+  state= {
+    loading: true
+  }
+
   componentDidUpdate(prevProps,prevState){
     if (this.props.location !== prevProps.location) { window.scrollTo(0, 0); }
   }
+
+  componentDidMount(){
+    setTimeout(() => {this.setState({loading: false})}, 2000)
+  }
   
   render() {
+    const {loading} = this.state;
+
+    if(loading){
+      return null;
+    }
     
     return (
       <div className="App">

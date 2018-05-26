@@ -8,8 +8,8 @@ class Header extends Component {
     const {pathname} = this.props.location;
 
     return (
-      <div className="Header">
-        <div className="Navbar_Desktop">
+      <div className='Header'>
+        <div className='Navbar_Desktop'>
           <div className="Navbar_Logo">
             <Link to='/'><img src="/images/logo.jpg" alt="logo-ventum" /></Link>
           </div>
@@ -39,6 +39,13 @@ class Header extends Component {
 
           </div>
 
+        </div>
+        <div className='Navbar_Mobile'>
+          <i className="fas fa-bars" onClick={() => {console.log('abrir')}}></i>
+          <i className="fas fa-times close"></i>
+          <div className='wrapper'>
+          
+          </div>
         </div>
       </div>
     );

@@ -65,8 +65,8 @@ class Equipment extends Component {
             <SliderSmallVer images={accommodates}/>
           </div>
           <div className='info'>
-            <h2>ACCOMMODATES: 4 (8 BERTHS)</h2>
-            <p>- Front 2 cabins with en-suite heads compartment.<br/>- Stern 2 cabins with en-suite heads compartment.<br/>- HEADS COMPARTMENTS: 4.<br/>- BOW CREW CABIN: 1.<br/>- TOTAL CAPACITY: 12 PEOPLE. (crew included)</p>
+            <h2>Accommodates: 4 (8 Berths)</h2>
+            <p>- Front 2 cabins with en-suite heads compartment.<br/>- Stern 2 cabins with en-suite heads compartment.<br/>- Heads comparments: 4.<br/>- Bow crew cabin: 1.<br/>- Total capacity: 12 People. (crew included)</p>
           </div>
          </div>
 
@@ -76,7 +76,7 @@ class Equipment extends Component {
           </div>
           <div className='info'>
             <h2>Deck</h2>
-            <p>- SAILING: SELF TACKING GIB / GENNAKER / MAINSAIL.<br/>- BIMINI. (solar panels)<br/>- STEERING: TWIN WHEEL.</p>
+            <p>- Sailing: Self tacking gib / Gennaker / Mainsail.<br/>- Bimini. (solar panels)<br/>- Steering: Twin wheel.</p>
           </div>
          </div>
 
@@ -87,32 +87,32 @@ class Equipment extends Component {
           <div className='info'>
             <h2>Others</h2>
             <p>
-              - AUXILIARY VESSEL: HIGHFIELD ALUMINIUM BOAT WITH HONDA OFFSHORE ENGINE.<br/>
-              - BOAT EQUIPMENT: OCEANIC NAVIGATION. (ZONE 1)<br/>
-              - FUEL: 395 LTS.<br/>
-              - FRESH WATER: 2 TANKS 690 L.<br/>
-              - WATER MAKER: 80 L/H.<br/>
-              - HOT WATER.<br/>
-              - HEATING.<br/>
-              - GENERATOR: MASTERVOLT WHISPER 3,5.<br/>
+              - Auxiliary vessel: Highfield aluminium boat with honda offshore engine.<br/>
+              - Boat equipment: Oceanic navigation. (Zone 1)<br/>
+              - Fuel: 395 LTS.<br/>
+              - Fresh water: 2 Tanks 690 L.<br/>
+              - Water maker: 80 L/H.<br/>
+              - Hot water.<br/>
+              - Heating.<br/>
+              - Generator: Mastervol Whisper 3,5.<br/>
             </p>
           </div>
          </div>
 
-         <h1 className='subTitle'>ESPECIFIC EQUIPMENT</h1>
+         <h1 className='subTitle'>Especific Equipment</h1>
          <div className='conditions'>
           <h2>Info</h2>
           <p>
-            - BUILDER: Hanse Yachts AG (Alemania / Germany) TYPE: 540e.<br/>
-            - DESIGN: YEAR: 2008 LOA: 16.08 mts BEAM: 4.91 mts DRAFT: 2.43 mts.<br/>
-            - HULL CONSTRUCTION: EPOXY / TEAK DECK.<br/>
-            - ENGINE: YANMAR 4JH4HTE  POWER: 110 HP.<br/>
-            - RUN HOURS: 850.<br/>
-            - FUEL TYPE: DIESEL.<br/>
-            - TRANSMISSION: DIRECT SHAFT HELICE / PROPELLER GORI. (over drive)<br/>
-            - HOLDING TANK: 4.<br/>
-            - FLAG: SPANISH.<br/>
-            - BOAT EQUIPMENT: OCEANIC NAVIGATION. (ZONE 1)<br/>
+            - Builder: Hanse Yachts AG (Alemania / Germany) TYPE: 540e.<br/>
+            - Design: Year 2008 Loa: 16.08 mts Beam: 4.91 mts Draft: 2.43 mts.<br/>
+            - Hull construction: Epoxy / Teak deck.<br/>
+            - Engine: Yanmar 4JH4HTE  power: 110 HP.<br/>
+            - Run hours: 850.<br/>
+            - Fuel type: Diesel.<br/>
+            - Transmission: Direct shaft helice / Propeller gori. (over drive)<br/>
+            - Holding tank: 4.<br/>
+            - Flag: Spanish.<br/>
+            - Boat equipment: Oceanic navigation. (Zone 1)<br/>
           </p>
          </div>
 
@@ -120,15 +120,15 @@ class Equipment extends Component {
           <h2>Electrical systems</h2>
           <p>
             - 12V.<br/>
-            - 230V SHORE POWER.<br/>
-            - ELECTRIC GENERATOR 3,5KV.<br/>
-            - AUTOMATIC BATTERIES CHARGER.<br/>
-            - ENERGY SOLAR PANNELS.<br/>
-            - BATTERIES WITH 1185AH TOTAL CAPACITY.<br/>
-            - ELECTRIC BILGE PUMPS.<br/>
-            - MANUAL BILGE PUMP.<br/>
-            - ELECTRIC ANCHOR WINDLASS.<br/>
-            - BOW THRUSTER.<br/>
+            - 230V Shore power.<br/>
+            - Electric generator 3,5KV.<br/>
+            - Automatic batteries charger.<br/>
+            - Energy solar panels.<br/>
+            - Batteries with 1185AH total capacity.<br/>
+            - Electric bilge pumps.<br/>
+            - Manual bilge pump.<br/>
+            - Electric anchor windlass.<br/>
+            - Bow thruster.<br/>
           </p>
          </div>
 
@@ -153,27 +153,27 @@ class Equipment extends Component {
          <div className='conditions'>
           <h2>Deck equipment</h2>
           <p>
-            - DELTA ANCHOR WITH CHAIN.<br/>
-            - SAFETY EQUIPMENT. (OCEANIC; ZONE 1)<br/>
-            - DAVIDS.<br/>
-            - HYDRAULIC TRANSOM DECK PLATFORM WITH CONTROL.<br/>
-            - SWIMMING LADDER.<br/>
-            - DECK SHOWER.<br/>
-            - FOLDING COCKPIT TABLE.<br/>
-            - 12 PAX LIFERAFT.<br/>
+            - Delta anchor with chain.<br/>
+            - Safety equipment. (Oceanic; Zone 1)<br/>
+            - Davids.<br/>
+            - Hydraulic transom deck platform with control.<br/>
+            - Swimming ladder.<br/>
+            - Deck shower.<br/>
+            - Folding cockpit table.<br/>
+            - 12 pax liferaft.<br/>
           </p>
          </div>
 
          <div className='conditions last'>
           <h2>Rigging sails</h2>
           <p>
-            - STANDING RIGGING REVIEW 2018.<br/>
-            -  SELF-TACKING JIB.<br/>
-            -  ROLLER FURLING SYSTEMS JIB.<br/>
-            - STARBOARD ELECTRIC WINCH.<br/>
-            - PORT MANUAL WINCH.<br/>
-            - TWO STERN MANUAL WINCH.<br/>
-            - BOW ELECTRIC WINCH.<br/>
+            - Standing rigging review 2018.<br/>
+            - Self-tacking jib.<br/>
+            - Roller furlingsystems jib.<br/>
+            - Starboard electric winch.<br/>
+            - Port manual winch.<br/>
+            - Two stern manual winch.<br/>
+            - Bow electric winch.<br/>
           </p>
          </div>
 
