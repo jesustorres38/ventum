@@ -38,8 +38,51 @@
                 color: rgb(42, 42, 42);
             }
         }
-        
-        
     }
-
+}
+@media (max-width: 500px){
+    .Options{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    
+        .option{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            height: 200px;
+            background-color: #fefefe;
+            position: relative;
+    
+            &:hover {
+                div{
+                    height: auto;
+                }
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: transparent;
+                position: absolute;
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                left: 0;
+                top: 150px;
+                transition: height 1s ease-in-out;
+                h2{
+                    font-family: $fontNoto;
+                    font-size: 28px;
+                    font-style: italic;
+                    color: rgb(42, 42, 42);
+                    margin: 0;
+                }
+            }
+        }
+    }
 }

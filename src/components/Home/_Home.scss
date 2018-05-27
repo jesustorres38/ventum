@@ -29,3 +29,15 @@
         }
     }
 }
+
+@media (max-width: 760px){
+    .Home{
+        .title{
+            font-size: 24px;
+        }
+        .description{
+            margin: 0 20px 20px 20px;
+            font-size: 16px;
+        }
+    }
+}

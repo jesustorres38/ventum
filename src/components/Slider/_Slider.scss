@@ -102,3 +102,23 @@
     }
             
 }
+
+@media (max-width: 760px){
+    .slides{
+        .slick-slide{
+            div{
+                h1{
+                    font-size: 34px;
+                    margin-top: 110px;
+                }
+                h2{
+                    font-size: 24px;
+                }
+                a{
+                    padding: 10px 20px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
