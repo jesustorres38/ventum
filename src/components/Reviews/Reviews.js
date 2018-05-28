@@ -13,7 +13,7 @@ class Reviews extends Component {
             slidesToScroll: 1,
             arrows: false,
             autoplay: true,
-            pauseOnHover: false,
+            pauseOnHover: true,
             autoplaySpeed: 4000,
             className: 'reviews'
         };

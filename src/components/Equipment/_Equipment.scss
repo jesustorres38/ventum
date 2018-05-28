@@ -2,7 +2,6 @@
     margin: 0 auto;
     max-width: 1400px;
     text-align: left;
-    min-height: 1000px;
 
     .title{
         min-height: 260px;
@@ -95,10 +94,186 @@
     .last{
         margin-bottom: 100px;
     }
+}
+
+@media (max-width: 920px){
+    .Equipment{
+        .title{
+            min-height: 200px;
+            
+            h1{
+                font-size: 34px;
+            }
+        }
     
+        .subTitle{
+            font-size: 18px;
+            margin: 50px 0 0 50px;
+            padding: 0 0 5px 0;
+        }
+    
+        .item{
+            margin: 20px 50px 80px 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+    
+            .fotosH{
+                width: 400px;
+                height: 300px;
+                margin-left: 20px;
+            }
+    
+            .fotosV{
+                width: 400px;
+                height: 400px;
+                margin-left: 20px;
+            }
+    
+            .info{
+                order: -1;
+                width: 100%;
+                min-height: 100px;
+                padding-top: 0px;
+                margin-bottom: 20px;
+                h2{
+                    font-family: $fontRobotoCondensed;
+                    font-weight: 700;
+                    color: rgba(42,42,42,0.85);
+                    font-size: 18px;
+                    margin: 0 0 0 20px;; 
+                }
+                p{
+                    font-size: 16px;
+                    font-family: $fontRobotoCondensed;
+                    font-weight: 400;
+                    line-height: 16pt;
+                    color: rgba(42, 42, 42, 0.7);
+                    margin: 5px 0 0 30px; 
+                }
+            }
+        }
 
+        .lastItem{
+            margin-bottom: 0;
+        }
+    
+        .conditions{
+            margin: 0 100px 0 70px; 
+    
+            h2{
+                font-family: $fontRobotoCondensed;
+                font-weight: 700;
+                color: rgba(42,42,42,0.85);
+                font-size: 18px;
+                margin: 20px 0 0 20px;; 
+            }
+            p{
+                font-size: 16px;
+                font-family: $fontRobotoCondensed;
+                font-weight: 400;
+                color: rgba(42, 42, 42, 0.7);
+                margin: 0px 0 0 30px; 
+            }
+            .first{
+                margin-top: 20px;
+            }
+        }
+    
+        .last{
+            margin-bottom: 100px;
+        }
+    }
+}
 
+@media (max-width: 720px){
+    .Equipment{
+        .title{
+            min-height: 200px;
+            
+            h1{
+                font-size: 34px;
+            }
+        }
+    
+        .subTitle{
+            font-size: 16px;
+            margin: 50px 0 0 20px;
+            padding: 0 0 5px 0;
+        }
+    
+        .item{
+            margin: 20px 0px 80px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            .fotosH{
+                width: 300px;
+                height: 200px;
+                margin-left: 0px;
+            }
+    
+            .fotosV{
+                width: 300px;
+                height: 300px;
+                margin-left: 0px;
+            }
+    
+            .info{
+                order: -1;
+                width: 100%;
+                min-height: 100px;
+                padding-top: 0px;
+                margin-bottom: 20px;
+                h2{
+                    font-family: $fontRobotoCondensed;
+                    font-weight: 700;
+                    color: rgba(42,42,42,0.85);
+                    font-size: 16px;
+                    margin: 0 0 0 30px;; 
+                }
+                p{
+                    font-size: 14px;
+                    font-family: $fontRobotoCondensed;
+                    font-weight: 400;
+                    line-height: 14pt;
+                    color: rgba(42, 42, 42, 0.7);
+                    margin: 5px 0 0 40px; 
+                }
+            }
+        }
 
-
-
+        .lastItem{
+            margin-bottom: 0;
+        }
+    
+        .conditions{
+            margin: 0 0px 0 0px; 
+    
+            h2{
+                font-family: $fontRobotoCondensed;
+                font-weight: 700;
+                color: rgba(42,42,42,0.85);
+                font-size: 18px;
+                margin: 20px 0 0 30px;
+            }
+            p{
+                font-size: 16px;
+                font-family: $fontRobotoCondensed;
+                font-weight: 400;
+                color: rgba(42, 42, 42, 0.7);
+                margin: 0px 20px 0 40px; 
+            }
+            .first{
+                margin-top: 20px;
+            }
+        }
+    
+        .last{
+            margin-bottom: 100px;
+        }
+    }
 }

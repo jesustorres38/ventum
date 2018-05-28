@@ -25,3 +25,32 @@
     }
             
 }
+@media (max-width: 720px){
+    .slidesSmall{
+        width: 300px;
+        height: 200px;
+        margin: 0 auto;
+    
+        .slide_1{
+            
+            outline: transparent;
+            img{
+                width: 300px;
+                height: 200px;
+            }
+        }
+        
+        .slick-dots{
+            bottom: 15px;
+            li button:before{
+                font-size: 14px;
+                color: black;
+            }
+            .slick-active button:before{
+                color: black;
+                opacity: 1;
+            }
+        }
+                
+    }
+}

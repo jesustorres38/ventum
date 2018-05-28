@@ -231,9 +231,7 @@ class Itinerary extends Component {
             <h2>all</h2>
             <p onClick={() => this.initMap()}>- See all trips</p>
           </div>
-          
         </div>
-
 
         <h1 className='subTitle'>Best moments</h1>
         <div className='gallery'>
@@ -244,9 +242,6 @@ class Itinerary extends Component {
             showPlayButton={false}
           />
         </div>
-        
-
-        
       </div>
     );
   }

@@ -20,7 +20,7 @@ class Equipment extends Component {
       {url: '/images/generalEquipment/accommodates/2.jpg'},
       {url: '/images/generalEquipment/accommodates/3.jpg'},
       {url: '/images/generalEquipment/accommodates/4.jpg'},
-      {url: '/images/generalEquipment/accommodates/5.jpg'},
+      // {url: '/images/generalEquipment/accommodates/5.jpg'},
       {url: '/images/generalEquipment/accommodates/6.jpg'},
       {url: '/images/generalEquipment/accommodates/7.jpg'}
     ];
@@ -80,7 +80,7 @@ class Equipment extends Component {
           </div>
          </div>
 
-         <div className='item'>
+         <div className='item lastItem'>
           <div className='fotosV'>
             <SliderSmallVer images={auxiliary}/>
           </div>

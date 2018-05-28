@@ -123,3 +123,173 @@
         margin-bottom: 100px;
     }
 }
+
+@media (max-width: 920px){
+    .Prices{
+
+        .title{
+            min-height: 200px;
+            
+            h1{
+                font-size: 34px;
+            }
+        }
+
+        .subTitle{
+            font-size: 18px; 
+            margin: 50px 0 0 50px;
+            padding: 0 0 5px 0;
+        }
+
+        .base{
+            margin: 0 100px 0 50px;
+
+            h2{
+                font-size: 18px;
+                margin: 20px 0 0 10px;; 
+            }
+            a{
+                font-size: 16px; 
+                margin: 0px 0 0 20px; 
+            }
+
+        }
+
+        .seasons{
+            margin: 0 50px 0px 50px; 
+            display: flex;
+            justify-content: space-between;
+
+            h1{
+                margin: 20px 0 0 0;
+                font-size: 18px;
+            }
+
+            .cont{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: calc(100%/3);
+                text-align: center;
+                padding: 0 30px;
+
+                p{
+                    font-size: 14px;
+                    margin: 0;
+                }
+                .subcont{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                    width: 100%;
+                    padding: 0 10px;
+                    margin: 5px 50px;
+                }
+            }
+
+
+        }
+
+        .conditions{
+            margin: 0 0px 0 50px; 
+
+            h2{
+                font-size: 18px;
+                margin: 20px 0 0 10px;; 
+            }
+            p{
+                font-size: 16px;
+                margin: 0px 0 0 20px; 
+            }
+        }
+        .last{
+            margin-bottom: 100px;
+        }
+    }
+}
+
+@media (max-width: 780px){
+    .Prices{
+
+        .title{
+            min-height: 200px;
+            
+            h1{
+                font-size: 34px;
+            }
+        }
+
+        .subTitle{
+            font-size: 16px; 
+            margin: 50px 20px 0 20px;
+            padding: 0 0 5px 0;
+        }
+
+        .base{
+            margin: 0 20px 0 20px;
+
+            h2{
+                font-size: 16px;
+                margin: 20px 0 0 10px;; 
+            }
+            a{
+                font-size: 14px; 
+                margin: 0px 0 0 20px; 
+            }
+
+        }
+
+        .seasons{
+            margin: 0 20px 0px 20px; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+
+            h1{
+                margin: 20px 0 0 0;
+                font-size: 16px;
+            }
+
+            .cont{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 80%;
+                text-align: center;
+                padding: 0;
+
+                p{
+                    font-size: 14px;
+                    margin: 0;
+                }
+                .subcont{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                    width: 100%;
+                    padding: 0 10px;
+                    margin: 5px 0px;
+                }
+            }
+
+
+        }
+
+        .conditions{
+            margin: 0 20px 0 20px; 
+
+            h2{
+                font-size: 16px;
+                margin: 20px 0 0 10px;; 
+            }
+            p{
+                font-size: 14px;
+                margin: 0px 0 0 20px; 
+            }
+        }
+        .last{
+            margin-bottom: 80px;
+        }
+    }
+}
