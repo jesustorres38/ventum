@@ -37,8 +37,8 @@ class Equipment extends Component {
     const auxiliary = [
       {url: '/images/generalEquipment/auxiliary/1.jpg'},
       {url: '/images/generalEquipment/auxiliary/2.jpg'},
-      {url: '/images/generalEquipment/auxiliary/3.jpg'},
-      {url: '/images/generalEquipment/auxiliary/4.jpg'}
+      {url: '/images/generalEquipment/auxiliary/3.png'},
+      {url: '/images/generalEquipment/auxiliary/4.png'}
     ];
 
 
