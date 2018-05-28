@@ -147,8 +147,8 @@ class Itinerary extends Component {
 
     const images = [
       {
-        original: '/images/bestMoments/4.jpg',
-        thumbnail: '/images/bestMoments/4.jpg',
+        original: '/images/bestMoments/4.png',
+        thumbnail: '/images/bestMoments/4.png',
         description: 'Baleares'
       },
       {
@@ -162,8 +162,8 @@ class Itinerary extends Component {
         description: 'Baleares'
       },
       {
-        original: '/images/bestMoments/5.jpg',
-        thumbnail: '/images/bestMoments/5.jpg',
+        original: '/images/bestMoments/5.png',
+        thumbnail: '/images/bestMoments/5.png',
         description: 'Cartagena'
       },
       {

@@ -10,9 +10,9 @@ class Equipment extends Component {
       {url: '/images/generalEquipment/saloon/3.jpg'},
       {url: '/images/generalEquipment/saloon/4.jpg'},
       {url: '/images/generalEquipment/saloon/5.jpg'},
-      {url: '/images/generalEquipment/saloon/6.jpg'},
-      {url: '/images/generalEquipment/saloon/7.jpg'},
-      {url: '/images/generalEquipment/saloon/8.jpg'}
+      {url: '/images/generalEquipment/saloon/6.png'},
+      {url: '/images/generalEquipment/saloon/7.png'},
+      {url: '/images/generalEquipment/saloon/8.png'}
     ];
 
     const accommodates = [
