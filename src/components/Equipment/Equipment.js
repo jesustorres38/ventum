@@ -1,8 +1,14 @@
 import React, { Component } from 'react'
 import SliderSmall from '../SliderSmall/SliderSmall'
 import SliderSmallVer from '../SliderSmallVer/SliderSmallVer'
+import AOS from 'aos'
 
 class Equipment extends Component {
+
+  componentDidMount(){
+    AOS.init();
+  }
+
   render() {
     const saloon = [
       {url: '/images/generalEquipment/saloon/1.jpg'},
@@ -43,7 +49,7 @@ class Equipment extends Component {
 
 
     return (
-      <div className="Equipment">
+      <div className="Equipment" data-aos="fade-up" data-aos-duration='1600'>
         <div className='title'>
           <h1>Equipment</h1>
         </div>

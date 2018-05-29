@@ -1,9 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import AOS from 'aos'
 
 class Prices extends Component {
+
+  componentDidMount(){
+    AOS.init();
+  } 
+
   render() {
     return (
-      <div className="Prices">
+      <div className="Prices" data-aos="fade-up" data-aos-duration='1600'>
         <div className='title'>
           <h1>Prices</h1>
         </div>

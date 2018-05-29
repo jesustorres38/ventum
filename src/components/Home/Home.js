@@ -13,7 +13,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="Home" data-aos="fade-zoom-in" data-aos-duration='1600' >
+      <div className="Home" data-aos="fade-up" data-aos-duration='1600'>
         <Slider />
         <h1 className='title'>Ventum</h1>
         <p className='description'>Ventum is a vital experience, navigating all those seas of the world, respecting and enjoying them. Sharing trips with other sailors, crew and friends.</p>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ImageGallery from 'react-image-gallery'
+import AOS from 'aos'
 
 class Itinerary extends Component {
   
@@ -141,6 +142,7 @@ class Itinerary extends Component {
 
   componentDidMount(){
     this.initMap();
+    AOS.init();
   }
 
   render() {
@@ -190,7 +192,7 @@ class Itinerary extends Component {
     ]
 
     return (
-      <div className="Itinerary">
+      <div className="Itinerary" data-aos="fade-up" data-aos-duration='1600'>
 
         <div id='map'></div>
         
