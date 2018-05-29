@@ -49,7 +49,7 @@ class Equipment extends Component {
 
 
     return (
-      <div className="Equipment" data-aos="fade-up" data-aos-duration='1600'>
+      <div className={document.readyState === 'complete' ? 'Equipment':'Hide'} data-aos="fade-up" data-aos-duration='1600'>
         <div className='title'>
           <h1>Equipment</h1>
         </div>

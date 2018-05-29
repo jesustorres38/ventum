@@ -192,7 +192,7 @@ class Itinerary extends Component {
     ]
 
     return (
-      <div className="Itinerary" data-aos="fade-up" data-aos-duration='1600'>
+      <div className={document.readyState === 'complete' ? 'Itinerary':'Hide'} data-aos="fade-up" data-aos-duration='1600'>
 
         <div id='map'></div>
         

@@ -9,7 +9,7 @@ class Prices extends Component {
 
   render() {
     return (
-      <div className="Prices" data-aos="fade-up" data-aos-duration='1600'>
+      <div className={document.readyState === 'complete' ? 'Prices':'Hide'} data-aos="fade-up" data-aos-duration='1600'>
         <div className='title'>
           <h1>Prices</h1>
         </div>

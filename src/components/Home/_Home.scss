@@ -30,6 +30,12 @@
     }
 }
 
+.Hide{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
 @media (max-width: 760px){
     .Home{
         .title{
