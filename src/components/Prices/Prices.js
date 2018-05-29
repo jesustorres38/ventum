@@ -3,13 +3,23 @@ import AOS from 'aos'
 
 class Prices extends Component {
 
+  constructor(props){
+    super(props);
+    this.state = { clase: 'Hide'}
+  }
+
   componentDidMount(){
     AOS.init();
+    window.addEventListener('load', this.ready()); 
   } 
+
+  ready = () => {
+    this.setState({clase: 'Prices'})
+  }
 
   render() {
     return (
-      <div className={document.readyState === 'complete' ? 'Prices':'Hide'} data-aos="fade-up" data-aos-duration='1600'>
+      <div className={this.state.clase} data-aos="fade-up" data-aos-duration='1600'>
         <div className='title'>
           <h1>Prices</h1>
         </div>
