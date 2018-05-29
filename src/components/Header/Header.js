@@ -60,13 +60,13 @@ class Header extends Component {
                 <a href="https://www.facebook.com/ventum.bcn/" target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/ventum.barcelona/" target='_blank' rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
               </div>
-              <Link to="/" className={pathname === '/' ? 'active link':'link'}>Home</Link>
-              <Link to="/equipment" className={pathname === '/equipment' ? 'active link':'link'}>Equipment</Link>
-              <Link className={pathname === '/itinerary' ? 'active link':'link'} to="/itinerary">Itinerary</Link>
-              <Link to="/prices" className={pathname === '/prices' ? 'active link':'link'}>Prices</Link>
-              <AnchorLink href='#contact' className='link'>Contact</AnchorLink>
+              <Link id='link' to="/" className={pathname === '/' ? 'active link':'link'}>Home</Link>
+              <Link id='link' to="/equipment" className={pathname === '/equipment' ? 'active link':'link'}>Equipment</Link>
+              <Link id='link' className={pathname === '/itinerary' ? 'active link':'link'} to="/itinerary">Itinerary</Link>
+              <Link id='link' to="/prices" className={pathname === '/prices' ? 'active link':'link'}>Prices</Link>
+              <AnchorLink id='link' href='#contact' className='link'>Contact</AnchorLink>
               <div className="logo">
-                <Link to='/'><img src="/images/logo-mobile.png" alt="logo-ventum" /></Link>
+                <Link to='/'><img id='link'  src="/images/logo-mobile.png" alt="logo-ventum" /></Link>
               </div>         
                 
             </div>
@@ -81,12 +81,20 @@ class Header extends Component {
     document.getElementById('sideNav').classList.add('abierto')
     document.getElementById('bars').classList.add('hide')
     document.getElementById('times').classList.remove('hide')
+    document.addEventListener('click', this.outsideClickListener);
   }
 
   cerrar = () => {
     document.getElementById('sideNav').classList.remove('abierto');
     document.getElementById('bars').classList.remove('hide')
     document.getElementById('times').classList.add('hide')
+  }
+
+  outsideClickListener = (event) => {
+    if(event){
+        this.cerrar();
+        document.removeEventListener('click', this.outsideClickListener)
+    }
   }
 
 

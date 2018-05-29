@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,700i");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,500,700");
+@import url("http://fonts.googleapis.com/css?family=Noto+Serif:400,700i");
+@import url("http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
 @import url(~slick-carousel/slick/slick.css);
 @import url(~slick-carousel/slick/slick-theme.css);
 @import url(~react-image-gallery/styles/css/image-gallery.css);
@@ -649,7 +649,8 @@
     .Equipment .item .info {
       width: 50%;
       min-height: 300px;
-      padding-top: 20px; }
+      padding-top: 20px;
+      margin-right: 20px; }
       .Equipment .item .info h2 {
         font-family: "Roboto Condensed", sans-serif;
         font-weight: 700;
@@ -770,23 +771,23 @@
       margin-left: 0px; }
     .Equipment .item .info {
       order: -1;
-      width: 100%;
-      min-height: 100px;
+      width: auto;
+      min-height: 10px;
       padding-top: 0px;
-      margin-bottom: 20px; }
+      margin: 0 20px 5px 10px; }
       .Equipment .item .info h2 {
         font-family: "Roboto Condensed", sans-serif;
         font-weight: 700;
         color: rgba(42, 42, 42, 0.85);
         font-size: 16px;
-        margin: 0 0 0 30px; }
+        margin: 0 0 0 10px; }
       .Equipment .item .info p {
         font-size: 14px;
         font-family: "Roboto Condensed", sans-serif;
         font-weight: 400;
         line-height: 14pt;
         color: rgba(42, 42, 42, 0.7);
-        margin: 5px 0 0 40px; }
+        margin: 5px 0 0 20px; }
   .Equipment .lastItem {
     margin-bottom: 0; }
   .Equipment .conditions {
@@ -795,10 +796,10 @@
       font-family: "Roboto Condensed", sans-serif;
       font-weight: 700;
       color: rgba(42, 42, 42, 0.85);
-      font-size: 18px;
+      font-size: 16px;
       margin: 20px 0 0 30px; }
     .Equipment .conditions p {
-      font-size: 16px;
+      font-size: 14px;
       font-family: "Roboto Condensed", sans-serif;
       font-weight: 400;
       color: rgba(42, 42, 42, 0.7);
