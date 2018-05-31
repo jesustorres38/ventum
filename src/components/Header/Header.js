@@ -20,7 +20,7 @@ class Header extends Component {
 
             <div className="contacto">
               <a href="tel:+34626482695">Contact: <span>+34 626 482 695</span></a>
-              <a href="mailto:marcabad@ventum.barcelona">Email: <span>marcabad@ventum.barcelona</span></a>
+              <a href="mailto:info@ventum.barcelona">Email: <span>info@ventum.barcelona</span></a>
               <div className="redes">
                 <a href="https://www.facebook.com/ventum.bcn/" target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/ventum.barcelona/" target='_blank' rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
@@ -55,7 +55,7 @@ class Header extends Component {
             <div className="content">
 
               <a href="tel:+34626482695">Call: <span>+34 626 482 695</span></a>
-              <a href="mailto:marcabad@ventum.barcelona">Email: <span>marcabad@ventum.barcelona</span></a>
+              <a href="mailto:info@ventum.barcelona">Email: <span>info@ventum.barcelona</span></a>
               <div className="redes">
                 <a href="https://www.facebook.com/ventum.bcn/" target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/ventum.barcelona/" target='_blank' rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>

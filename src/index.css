@@ -175,8 +175,8 @@
       flex-direction: column;
       margin: 50px 0 80px 70px; }
       .Footer .Footer-1 .info img {
-        width: 180px;
-        height: 90px;
+        width: 200px;
+        height: 100px;
         margin-bottom: 20px; }
       .Footer .Footer-1 .info a {
         color: rgba(42, 42, 42, 0.7);
@@ -679,6 +679,10 @@
         line-height: 16pt;
         color: rgba(42, 42, 42, 0.7);
         margin: 5px 0 0 30px; }
+      .Equipment .item .info .sangrado {
+        margin: 0 0 0 40px; }
+      .Equipment .item .info .top {
+        margin: 0 0 0 30px; }
   .Equipment .conditions {
     margin: 0 100px 0 70px; }
     .Equipment .conditions h2 {
@@ -808,6 +812,10 @@
         line-height: 14pt;
         color: rgba(42, 42, 42, 0.7);
         margin: 5px 0 0 20px; }
+      .Equipment .item .info .sangrado {
+        margin: 0 0 0 30px; }
+      .Equipment .item .info .top {
+        margin: 0 0 0 20px; }
   .Equipment .lastItem {
     margin-bottom: 0; }
   .Equipment .conditions {
@@ -832,19 +840,19 @@
 .slides .slide_1 {
   background: url("/images/slide-1.jpg") no-repeat center center;
   background-size: cover;
-  height: 500px;
+  height: 600px;
   outline: transparent; }
 
 .slides .slide_2 {
   background: url("/images/slide-2.jpg") no-repeat center center;
   background-size: cover;
-  height: 500px;
+  height: 600px;
   outline: transparent; }
 
 .slides .slide_3 {
   background: url("/images/slide-3.jpg") no-repeat center center;
   background-size: cover;
-  height: 500px;
+  height: 600px;
   outline: transparent; }
 
 .slides .slick-slide div h1 {

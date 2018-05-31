@@ -94,7 +94,11 @@ class Prices extends Component {
           <p>- 150 €/dia skeeper. <br/>- 125 €/dia sailor-hostess.</p>
           
           <h2>Others</h2>
-          <p>- End cleaning: 140 €/week. <br/>- Bed sheets: 80 €/week for booking.</p>
+          <p>- End cleaning: 140 €/week. <br/>
+          - Bed sheets: 80 €/week for booking. <br/> 
+          - Engine auxiliary boat:120 € for booking. <br/>
+          - Sailor-hostess (on the request): 125 €/day. <br/>
+          - Fuel, gas, moorings, wi-fi and Pattern maintenance:  according to consumption.</p>
         </div>
 
         <h1 className='subTitle'>Payment and Discounts</h1>
@@ -103,7 +107,11 @@ class Prices extends Component {
           <p>- 40% paid just booking + 60% paid 1 month before departure.</p>
 
           <h2>Discount policy</h2>
-          <p> - 15 % if the charter is 100% paid 3 months before departure.<br/>- 10% if the charter is 100% paid 2 months before departure.<br/>- 5% for repeat clients.<br/>- All discounts are for all kind of charters duration, and are progressive if there are more than one discount: first for payment in advance.<br/></p>
+          <p> - 15 % if the charter is 100% paid 3 months before departure.<br/>
+          - 10% if the charter is 100% paid 2 months before departure.<br/>
+          - 5% for repeat clients.<br/>
+          - 5% two weeks rental. <br/>
+          - All discounts are for all kind of charters duration, and are progressive if there are more than one discount: first for payment in advance.<br/></p>
         </div>
 
         <h1 className='subTitle'>Check In/Out</h1>
@@ -112,7 +120,7 @@ class Prices extends Component {
           <p>- Saturday: In 15 h. / Out 10 h.</p>
 
           <h2>1 Day charter</h2>
-          <p> - 15 % if the charter is 100% paid 3 months before departure.<br/>- 10% if the charter is 100% paid 2 months before departure.<br/>- 5% for repeat clients.<br/>- All discounts are for all kind of charters duration, and are progressive if there are more than one discount: first for payment in advance.<br/></p>
+          <p> - In 11 h / Out 19 h.</p>
         </div>
         
 

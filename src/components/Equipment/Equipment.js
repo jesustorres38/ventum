@@ -15,10 +15,10 @@ class Equipment extends Component {
       {url: '/images/generalEquipment/saloon/2.jpg'},
       {url: '/images/generalEquipment/saloon/3.jpg'},
       {url: '/images/generalEquipment/saloon/4.jpg'},
+      {url: '/images/generalEquipment/saloon/8.png'},
       {url: '/images/generalEquipment/saloon/5.jpg'},
       {url: '/images/generalEquipment/saloon/6.png'},
-      {url: '/images/generalEquipment/saloon/7.png'},
-      {url: '/images/generalEquipment/saloon/8.png'}
+      {url: '/images/generalEquipment/saloon/7.png'}
     ];
 
     const accommodates = [
@@ -61,8 +61,18 @@ class Equipment extends Component {
             <SliderSmall images={saloon}/>
           </div>
           <div className='info'>
-            <h2>Saloon (4 x 3.7 m)</h2>
-            <p>- Seating around dining table to port and to starboard.<br/>- Interior upholstered pearl grey.<br/>- L-Shaped galley equipped with gas cooking and oven.<br/>- Isotherm fridge + Isotherm Marine cool box.<br/>- Termomix.<br/>- Microwave.<br/>- Chart table to port with electronics. (plotter, etc.)<br/>- TV + WI-FI.<br/>- ASUS P2 LED Projector + Advanced portable screen.</p>
+            <h2>Inside boat</h2>
+            <p>
+            - Saloon (4 x 3.7 m) <br/>
+            - Seating around dining table to port and to starboard.<br/>
+            - Chart table to port with electronics. (plotter, etc.)<br/>
+            - TV + WI-FI.<br/>- ASUS P2 LED Projector + Advanced portable screen.<br/>
+            - Interior upholstered pearl grey.<br/>
+            - L-Shaped galley equipped with gas cooking and oven.<br/>
+            - Isotherm fridge + Isotherm Marine cool box.<br/>
+            - Termomix.<br/>- Microwave.<br/>
+            - Boiler. <br/>
+            </p>
           </div>
          </div>
 
@@ -71,8 +81,30 @@ class Equipment extends Component {
             <SliderSmallVer images={accommodates}/>
           </div>
           <div className='info'>
-            <h2>Accommodates: 4 (8 Berths)</h2>
-            <p>- Front 2 cabins with en-suite heads compartment.<br/>- Stern 2 cabins with en-suite heads compartment.<br/>- Heads comparments: 4.<br/>- Bow crew cabin: 1.<br/>- Total capacity: 12 People. (crew included)</p>
+            <h2>Accommodates: 5 (10 Berths)</h2>
+            <p>- 4 cabins. (8 Berths)</p>
+
+            <p className="sangrado">
+              - Front 2 cabins with en-suite heads compartment.<br/>
+              - Stern 2 cabins with en-suite heads compartment.<br/>
+            </p>
+
+            <p className="top">- Saloon. (1 Berths)</p>
+
+            <p className="sangrado">- Sofa bed.</p>
+            
+            <p className="top">
+            - Bow crew cabin: 1.<br/>
+            - Heads comparments: 4 + 1 (crew).
+            </p>
+            <p className="sangrado">- 4 complete bathrooms; 2 electric toilets.</p>
+
+            <p className="top">
+            - AM/FM/USB/HDMI/Bluetooth.<br/>
+            - 2 speakers. <br/>
+            - Total capacity: 12 People. (crew included)
+            </p>
+
           </div>
          </div>
 
@@ -82,7 +114,19 @@ class Equipment extends Component {
           </div>
           <div className='info'>
             <h2>Deck</h2>
-            <p>- Sailing: Self tacking gib / Gennaker / Mainsail.<br/>- Bimini. (solar panels)<br/>- Steering: Twin wheel.</p>
+            <p>
+            - Teak deck. <br/>
+            - Deck solarium cushions.<br/>
+            - Sun Canapy. (Bimini) <br/>
+            - Soft top; sprayhood. <br/>
+            - Deck shower (hot-cold)<br/>
+            - Deck wash pump in stern.<br/>
+            - Hydraulic transom deck platform; swimming ladder<br/>
+            - Wind equipment, plotter, autopilot,...<br/>
+            - Sailing: Self tacking gib / Gennaker / Mainsail.<br/>
+            - Steering: Twin wheel.<br/>
+            - Safety equipment (oceanic; zone 1)
+            </p>
           </div>
          </div>
 
@@ -93,14 +137,20 @@ class Equipment extends Component {
           <div className='info'>
             <h2>Others</h2>
             <p>
-              - Auxiliary vessel: Highfield aluminium boat with honda offshore engine.<br/>
-              - Boat equipment: Oceanic navigation. (Zone 1)<br/>
+              - Dinghy and outbord: Highfield aluminium boat with honda offshore engine.<br/>
               - Fuel: 395 LTS.<br/>
               - Fresh water: 2 Tanks 690 L.<br/>
-              - Water maker: 80 L/H.<br/>
-              - Hot water.<br/>
+              - Watermaker: 80 L/H.<br/>
+              - Boiler.<br/>
               - Heating.<br/>
               - Generator: Mastervol Whisper 3,5.<br/>
+              - Bow thruster. <br/>
+              - Energy solar panels. <br/>
+              - Gennaker. <br/>
+              - Starboard electric winch. <br/>
+              - Bow electric winch. <br/>
+              - 12 people liferaft. <br/>
+              - Lifelines and harness. 
             </p>
           </div>
          </div>
@@ -127,6 +177,7 @@ class Equipment extends Component {
           <p>
             - 12V.<br/>
             - 230V Shore power.<br/>
+            - 230V Converter. <br/>
             - Electric generator 3,5KV.<br/>
             - Automatic batteries charger.<br/>
             - Energy solar panels.<br/>
@@ -159,14 +210,20 @@ class Equipment extends Component {
          <div className='conditions'>
           <h2>Deck equipment</h2>
           <p>
+            - Leds navigation lights. <br/>
+            - Leds cockpit lights. <br/>
+            - Watertight speakers. <br/>
+            - VHF wireless in cockpit. <br/>
+            - Cushions in cockpit. <br/>
             - Delta anchor with chain.<br/>
             - Safety equipment. (Oceanic; Zone 1)<br/>
-            - Davids.<br/>
+            - Davit.<br/>
             - Hydraulic transom deck platform with control.<br/>
             - Swimming ladder.<br/>
             - Deck shower.<br/>
             - Folding cockpit table.<br/>
             - 12 pax liferaft.<br/>
+            
           </p>
          </div>
 

@@ -39,7 +39,7 @@ class Reviews extends Component {
               <div className="review">
                 <p>"It was an excellent trip everything was very good. I loved the view and the captain was very friendly."</p>
                 <Rating stars={4.5}/>
-                <h2><a>Jaume</a>, Barcelona Spain</h2>
+                <h2><a href="https://www.instagram.com/marinalpez21/">Marina</a>, Barcelona Spain</h2>
               </div>
             </SliderSlick>
           </section>

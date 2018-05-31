@@ -10,7 +10,7 @@ class Footer extends Component {
           <div className="info">
             <Link to='/'><img src="/images/logo-footer.png" alt="logo-footer" /></Link>
             <a href="tel:+34626482695">Phone: <span>+34 626 482 695</span></a>
-            <a href="mailto:marcabad@ventum.barcelona">Email: <span>marcabad@ventum.barcelona</span></a>
+            <a href="mailto:info@ventum.barcelona">Email: <span>info@ventum.barcelona</span></a>
             <p>Marina Port Premià<br/> CP: 08330 Barcelona (Spain)</p>
           </div>
           <div className="redes">
