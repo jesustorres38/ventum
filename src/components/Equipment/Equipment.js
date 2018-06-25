@@ -26,18 +26,17 @@ class Equipment extends Component {
       {url: '/images/generalEquipment/accommodates/2.jpg'},
       {url: '/images/generalEquipment/accommodates/3.jpg'},
       {url: '/images/generalEquipment/accommodates/4.jpg'},
-      // {url: '/images/generalEquipment/accommodates/5.jpg'},
       {url: '/images/generalEquipment/accommodates/6.jpg'},
       {url: '/images/generalEquipment/accommodates/7.jpg'}
     ];
 
     const deck = [
+      {url: '/images/generalEquipment/deck/6.jpg'},
       {url: '/images/generalEquipment/deck/1.jpg'},
       {url: '/images/generalEquipment/deck/2.jpg'},
       {url: '/images/generalEquipment/deck/3.jpg'},
       {url: '/images/generalEquipment/deck/4.jpg'},
-      {url: '/images/generalEquipment/deck/5.jpg'},
-      {url: '/images/generalEquipment/deck/6.jpg'}
+      {url: '/images/generalEquipment/deck/5.jpg'}
     ];
 
     const auxiliary = [
@@ -97,7 +96,7 @@ class Equipment extends Component {
             - Bow crew cabin: 1.<br/>
             - Heads comparments: 4 + 1 (crew).
             </p>
-            <p className="sangrado">- 4 complete bathrooms; 2 electric toilets.</p>
+            <p className="sangrado">- 5 complete bathrooms; 2 electric toilets.</p>
 
             <p className="top">
             - AM/FM/USB/HDMI/Bluetooth.<br/>
@@ -137,16 +136,14 @@ class Equipment extends Component {
           <div className='info'>
             <h2>Others</h2>
             <p>
-              - Dinghy and outbord: Highfield aluminium boat with honda offshore engine.<br/>
+              - Dinghy and outbord: Highfield aluminium boat with honda outboard engine.<br/>
               - Fuel: 395 LTS.<br/>
               - Fresh water: 2 Tanks 690 L.<br/>
-              - Watermaker: 80 L/H.<br/>
-              - Boiler.<br/>
+              - Watermaker: 120 L/H.<br/>
               - Heating.<br/>
-              - Generator: Mastervol Whisper 3,5.<br/>
+              - Generator: Mastervolt Whisper 3,5.<br/>
               - Bow thruster. <br/>
               - Energy solar panels. <br/>
-              - Gennaker. <br/>
               - Starboard electric winch. <br/>
               - Bow electric winch. <br/>
               - 12 people liferaft. <br/>
@@ -159,7 +156,7 @@ class Equipment extends Component {
          <div className='conditions'>
           <h2>Info</h2>
           <p>
-            - Builder: Hanse Yachts AG (Alemania / Germany) TYPE: 540e.<br/>
+            - Builder: Hanse Yachts AG (Germany) TYPE: 540e.<br/>
             - Design: Year 2008 Loa: 16.08 mts Beam: 4.91 mts Draft: 2.43 mts.<br/>
             - Hull construction: Epoxy / Teak deck.<br/>
             - Engine: Yanmar 4JH4HTE  power: 110 HP.<br/>

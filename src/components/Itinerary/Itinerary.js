@@ -25,7 +25,7 @@ class Itinerary extends Component {
         link: 'https://www.facebook.com/ventum.bcn/photos/pcb.1645546695544658/1645539915545336/?type=3&theater'
       },
       {
-        nombre: 'Cerdeña',
+        nombre: 'Sardinia',
         singladura: 0,
         position: {lat: 40.19, lng: 7.82},
         icon: '/images/markerOff.png',
@@ -33,7 +33,7 @@ class Itinerary extends Component {
         link: 'https://www.facebook.com/ventum.bcn/photos/pcb.1645204352245559/1645201648912496/?type=3&theater'
       },     
       {
-        nombre: 'Baleares',
+        nombre: 'Balears',
         singladura: 0,
         position: {lat: 39.14, lng: 2.11},
         icon: '/images/markerOff.png',
@@ -41,25 +41,25 @@ class Itinerary extends Component {
         link: 'https://www.facebook.com/ventum.bcn/photos/pcb.1645527242213270/1645525262213468/?type=3&theater'
       },
       {
-        nombre: 'Eolicas',
+        nombre: 'Eolias',
         singladura: 1,
         position: {lat: 38.49, lng: 14.88},
         icon: '/images/markerOn.png',
-        fecha: 'Junio 2018'
+        fecha: 'June 2018'
       },
       {
-        nombre: 'Baleares',
+        nombre: 'Balears',
         singladura: 1,
         position: {lat: 39.14, lng: 2.11},
         icon: '/images/markerOn.png',
-        fecha: 'Julio-Agosto 2018'
+        fecha: 'July-August 2018'
       },
       {
         nombre: 'Premià de Mar',
         singladura: 1,
         position: {lat: 41.48, lng: 2.36},
         icon: '/images/markerOn.png',
-        fecha: 'Septiembre-Octubre 2018',
+        fecha: 'September-October 2018',
         link: 'https://www.facebook.com/ventum.bcn/photos/pcb.1645538478878813/1645536132212381/?type=3&theater'
       },
       {
@@ -67,14 +67,14 @@ class Itinerary extends Component {
         singladura: 1,
         position: {lat: 29.19, lng: -15.51},
         icon: '/images/markerOn.png',
-        fecha: 'Noviembre 2018'
+        fecha: 'November 2018'
       },
       {
-        nombre: 'Travesia Atlantico',
+        nombre: 'Travesia Atlantic',
         singladura: 1,
         position: {lat: 11.85, lng: -32.95},
         icon: '/images/markerOn.png',
-        fecha: 'Diciembre 2018'
+        fecha: 'December 2018'
       }
       ,
       {
@@ -82,7 +82,7 @@ class Itinerary extends Component {
         singladura: 1,
         position: {lat: 15.68, lng: -76.32},
         icon: '/images/markerOn.png',
-        fecha: 'Diciembre 2018'
+        fecha: 'December 2018'
       }
     ]
   }
@@ -151,17 +151,17 @@ class Itinerary extends Component {
       {
         original: '/images/bestMoments/4.png',
         thumbnail: '/images/bestMoments/4.png',
-        description: 'Baleares'
+        description: 'Balears'
       },
       {
         original: '/images/bestMoments/1.jpg',
         thumbnail: '/images/bestMoments/1.jpg',
-        description: 'Baleares'
+        description: 'Balears'
       },
       {
         original: '/images/bestMoments/3.jpg',
         thumbnail: '/images/bestMoments/3.jpg',
-        description: 'Baleares'
+        description: 'Balears'
       },
       {
         original: '/images/bestMoments/5.png',
@@ -176,12 +176,12 @@ class Itinerary extends Component {
       {
         original: '/images/bestMoments/7.jpg',
         thumbnail: '/images/bestMoments/7.jpg',
-        description: 'Cerdeña'
+        description: 'Sardinia'
       },
       {
         original: '/images/bestMoments/8.jpg',
         thumbnail: '/images/bestMoments/8.jpg',
-        description: 'Cerdeña'
+        description: 'Sardinia'
       },
       {
         original: '/images/bestMoments/9.jpg',

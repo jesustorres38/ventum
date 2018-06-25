@@ -91,7 +91,7 @@ class Prices extends Component {
 
         <div className='conditions'>
           <h2>Crew</h2>
-          <p>- 150 €/dia skeeper. <br/>- 125 €/dia sailor-hostess.</p>
+          <p>- 150 €/day skeeper. <br/>- 125 €/day sailor-hostess.</p>
           
           <h2>Others</h2>
           <p>- End cleaning: 140 €/week. <br/>

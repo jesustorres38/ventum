@@ -2,7 +2,7 @@
   "name": "ventum",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jesustorres38.github.io/ventum",
+  "homepage": "http://ventum.barcelona",
   "dependencies": {
     "aos": "^2.3.0",
     "node-sass-chokidar": "^1.2.2",
