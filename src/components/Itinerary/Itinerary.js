@@ -42,7 +42,7 @@ class Itinerary extends Component {
       },
       {
         nombre: 'Eolias',
-        singladura: 1,
+        singladura: 0,
         position: {lat: 38.49, lng: 14.88},
         icon: '/images/markerOn.png',
         fecha: 'June 2018'
@@ -220,7 +220,7 @@ class Itinerary extends Component {
             {this.markers.map((x,i)=>{
               if(x.singladura === 0){
                 return(
-                  <p onClick={()=> this.initMapOne(x)} key={x.nombre+i}>- {x.nombre} <span>({x.fecha})</span><a href={x.link} target='_blank' rel="noopener noreferrer"> Photos</a> </p>
+                  <p onClick={()=> this.initMapOne(x)} key={x.nombre+i}>- {x.nombre} <span>({x.fecha})</span> {x.link && <a href={x.link} target='_blank' rel="noopener noreferrer"> Photos</a>} </p>
                 );
               }
               else{
