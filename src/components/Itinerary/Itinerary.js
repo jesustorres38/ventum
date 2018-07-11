@@ -45,7 +45,8 @@ class Itinerary extends Component {
         singladura: 0,
         position: {lat: 38.49, lng: 14.88},
         icon: '/images/markerOn.png',
-        fecha: 'June 2018'
+        fecha: 'June 2018',
+        link: 'https://www.facebook.com/1407457266020270/posts/1611144085651586/'
       },
       {
         nombre: 'Balears',
